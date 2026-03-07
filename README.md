@@ -87,7 +87,7 @@ The goal is to provide a technical reference map of the digital built environmen
 
 ## Graph databases
 
-* (Neo4j)[https://neo4j.com/] **Neo4j** 
+* [Neo4j](https://neo4j.com/) **Neo4j** 
 *  
 
 ## Spatial and relational databases
@@ -147,7 +147,7 @@ The goal is to provide a technical reference map of the digital built environmen
 
 # Inititives ans societies
 - [BIMe](https://bimexcellence.org/) - BIM Excellence Initiative
-- [Modelling & Standards committee] (https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - a permanent committee of the EC3
+- [Modelling & Standards committee](https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - a permanent committee of the EC3
 ---
 
 # Datasets and benchmarks

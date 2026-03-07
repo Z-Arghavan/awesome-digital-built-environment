@@ -70,7 +70,7 @@ The goal is to provide a technical reference map of the digital built environmen
 
 ## Ontologies
 - (BE-OLS)[https://cyberbuildlab.github.io/BE-OLS/] - Built Environment Ontology Lookup Service
-- (LOV)[Linked Open Vocabularies] - https://lov.linkeddata.es/dataset/lov/
+- (LOV)[https://lov.linkeddata.es/dataset/lov/)] - Linked Open Vocabularies
 
 
 

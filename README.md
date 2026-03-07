@@ -116,7 +116,6 @@ The goal is to provide a technical reference map of the digital built environmen
 ## Standards
 
 * [BIM Standards Landscape Explorer](https://ec-3.org/BIM-Standards-Landscape-Explorer.html)
-* **ISO 19650** – information management using BIM.
 * **bSDD** – buildingSMART Data Dictionary.
 * **CityGML**
 * **IndoorGML**
@@ -144,6 +143,11 @@ The goal is to provide a technical reference map of the digital built environmen
 * **ISARC – International Symposium on Automation and Robotics in Construction**
 * **LDAC – Linked Data in Architecture and Construction**
 
+---
+
+# Inititives ans societies
+- (BIMe)[https://bimexcellence.org/] - BIM Excellence Initiative
+- (Modelling & Standards committee)[https://ec-3.org/governance/technical-committees/modelling-standards-committee/] - a permanent committee of the EC3
 ---
 
 # Datasets and benchmarks

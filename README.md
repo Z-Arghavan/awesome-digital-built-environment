@@ -119,9 +119,27 @@ Systems for integrating data, simulation, and monitoring of built assets.
 - [LOV](https://lov.linkeddata.es/dataset/lov/) - Linked Open Vocabularies
 
 
-
 ---
+# Data spaces
 
+Architectures and platforms for **secure and interoperable data sharing across organisations**.
+Data spaces are increasingly used for **built environment, smart city, and industrial digital twin ecosystems**.
+
+## Frameworks and architectures
+
+* [International Data Spaces (IDS)](https://internationaldataspaces.org/) – reference architecture for secure data exchange between organisations.
+* [GAIA-X](https://gaia-x.eu/) – European initiative for federated cloud and data infrastructure.
+* [Eclipse Dataspace Components](https://github.com/eclipse-edc) – open-source implementation of the IDS architecture.
+* [FIWARE Data Spaces](https://www.fiware.org/data-spaces/) – open ecosystem supporting domain-specific data spaces.
+
+## Domain data space initiatives
+
+* [Manufacturing-X](https://www.manufacturing-x.de/) – industrial data space initiative.
+* [Mobility Data Space](https://mobility-dataspace.eu/) – European data-sharing ecosystem for mobility.
+* [Catena-X](https://catena-x.net/) – automotive data space ecosystem.
+* [Built Environment Data Spaces (emerging initiatives)] – data sharing infrastructures for construction and infrastructure sectors.
+  
+---
 # Graph databases and data infrastructure
 
 
@@ -155,9 +173,9 @@ Systems for integrating data, simulation, and monitoring of built assets.
 ## Standards
 
 * [BIM Standards Landscape Explorer](https://ec-3.org/BIM-Standards-Landscape-Explorer.html)
-* [IFC](
-* **CityGML**
-* **IndoorGML**
+* [buildingSMART standards](https://www.buildingsmart.org/standards/)
+* [IFC](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/)
+* [OGC standards](https://www.ogc.org/standards) – including CityGML, IndoorGML, and 3D Tiles.
 
 ## Semantic Web standards
 
@@ -177,25 +195,81 @@ Systems for integrating data, simulation, and monitoring of built assets.
 
 # Conferences and workshops
 
-* [EC3 – European Council on Computing in Construction](https://ec-3.org/)
-* [CIB W78 – Information Technology in Construction](https://www.cibw78.org/)
-* [ISARC – International Symposium on Automation and Robotics in Construction](https://www.isarc.org/)
-* [LDAC – Linked Data in Architecture and Construction](http://www.linkedbuildingdata.net/ldac/)
+# Conferences and workshops
+
+Known conferences and workshops related to **digital construction, BIM, digital twins, AI and semantic technologies for the built environment**.
+
+## Digital construction and BIM
+
+* [CIB W78 – Information Technology in Construction](https://www.cibw78.org/) – leading conference on digital technologies for construction.
+* [EC3 – European Conference on Computing in Construction](https://ec-3.org/) – major European conference on computational approaches in construction.
+* [ASCE International Conference on Computing in Civil Engineering](https://www.asce.org/cce) – conference on computing applications in civil engineering.
+* [eCAADe – Education and Research in Computer Aided Architectural Design in Europe](https://ecaade.org/) – conference on computational design and digital architecture.
+* [CAAD Futures](https://caadfutures.org/) – international conference on computer-aided architectural design.
+* [ISARC – International Symposium on Automation and Robotics in Construction](https://www.isarc.org/) – flagship conference on robotics in construction.
+* [IEEE CASE](https://ieee-ras.org/conferences-workshops/fully-sponsored/case) – IEEE conference on automation science and engineering.
+* [LDAC – Linked Data in Architecture and Construction](http://www.linkedbuildingdata.net/ldac/) – workshop on semantic web technologies in the built environment.
+* [SEMANTiCS Conference](https://2024-eu.semantics.cc/) – conference on semantic technologies and knowledge graphs.
+* [Digital Twin Consortium Events](https://www.digitaltwinconsortium.org/) – workshops and conferences on digital twin technologies.
+* [TwinArch – Digital Twin Architecture Workshop](https://www.iese.fraunhofer.de/en/twinarch.html) – workshop on digital twin architectures.
+* [ACM BuildSys](https://buildsys.acm.org/) – conference on systems for smart buildings and cities.
+* [IEEE Smart Cities](https://smartcities.ieee.org/) – conference series on smart city technologies.
+* [TUM GNI Symposium 2026](https://events.gni.tum.de/ai-symposium-2026/) – symposium on digital transformation in the built environment organized by TUM.  
+
+
+##National Conferences and Workshops
+
+* [UK BIM Conference](https://www.ukbimconference.com/) – annual conference on BIM in the UK.
+* [BIM World](https://www.bim-world.com/) – global conference with regional editions in Europe, Asia, and the Americas.
+* [AIA Conference on Architecture](https://conferenceonarchitecture.com/) – major US conference on architecture and design, including digital technologies.
+* [BILT Conference](https://bilt-conference.com/) – conference on BIM and digital construction with global editions.
+* [BIM Forum](https://bimforum.org/) – annual conference on BIM in the US.
+* [BIM Nordic](https://bimnordic.com/) – conference on BIM in the Nordic countries.
+* [BIM Summit](https://bimsummit.es/) – annual conference on BIM in Spain.
+* [BIM World Munich](https://www.bim-world.com/munich/) – conference on BIM and digital construction in Germany.
+* [BIM World Paris](https://www.bim-world.com/paris/) – conference on BIM and digital construction in France.
+* [Digital Construction Week](https://www.digitalconstructionweek.com/) – UK-based conference on digital construction technologies.
+* [Smart Building Conference](https://www.smartbuildingconference.com/) – conference on smart building technologies in the US.
+* [Smart Cities Expo World Congress](https://www.smartcityexpo.com/) – global conference on smart city technologies.
+* [Smart City Expo](https://www.smartcityexpo.com/) – conference on smart city technologies in Spain.
+* [4TU-14UAS Research Day on Digitalisation of the Built Environment](https://www.4tu.nl/agenda/5th-research-day-on-digitalization/) – workshop on digitalisation in the built environment organized by 4TU and 14UAS in the Netherlands.
+
+
+
+
+
 
 ---
 
 # Inititives ans societies
 - [BIMe](https://bimexcellence.org/) - BIM Excellence Initiative
+- [CIB – International Council for Research and Innovation in Building and Construction](https://www.cibworld.org/) - global network of researchers and practitioners in the built environment
 - [Modelling & Standards committee](https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - a permanent committee of the EC3
----
+- [BuildingSMART International Ltd](https://www.buildingsmart.org/) - international organization developing open BIM standards
+- [Digital Twin Consortium](https://www.digitaltwinconsortium.org/) - global ecosystem for digital twin technologies
+- [International Data Spaces Association](https://internationaldataspaces.org/) - organization promoting secure data exchange through data spaces
+- 
+-
+
 
 # Datasets and benchmarks
 
 * [Matterport3D](https://niessner.github.io/Matterport/) – indoor scanning dataset
+* [Stanford Computational and Geometry Lab Vision](https://cvgl.stanford.edu/resources.html) – several datasets
+* [KITTI](http://www.cvlibs.net/datasets/kitti/) – autonomous driving dataset with 3D point clouds
+* [Semantic3D](http://www.semantic3d.net/) – large-scale outdoor point cloud dataset
+* [ModelNet](http://modelnet.cs.princeton.edu/) – 3D CAD model dataset
+* [ShapeNet](https://www.shapenet.org/) – large-scale 3D model dataset
 * [ScanNet](http://www.scan-net.org/) – 3D scene dataset
+* [S3DIS](http://buildingparser.stanford.edu/dataset.html) – indoor scene dataset
 * [NIST IFC Repository](https://www.nist.gov/services-resources/software/ifc) – BIM model datasets
-* [IFCNet]([https://github.com/RWTH-E3D/ifcnet-models?tab=readme-ov-file](https://ifcnet.e3d.rwth-aachen.de/)
-* [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench)
+* [BuildingSmart IFC Datasets](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/ifc-datasets/) – BIM model datasets in IFC format
+* [3D Warehouse](https://3dwarehouse.sketchup.com/) – 3D model repository with many building models
+* [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) – BIM model dataset for machine learning
+* [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench) – benchmark dataset for IFC-based machine learning
+* [BuildingNet](https://buildingnet.org/) – building model dataset for machine learning
+* [CityGML 3D City Model Repository](https://www.ogc.org/standards/citygml#datasets) – repository of 3D city models in CityGML format
+* [3D Tiles](https://github.com/CesiumGS/3d-tiles) – 3D geospatial data format with example datasets
 ---
 
 # Learning resources

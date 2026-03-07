@@ -69,8 +69,8 @@ The goal is to provide a technical reference map of the digital built environmen
 ---
 
 ## Ontologies
-- (BE-OLS)[https://cyberbuildlab.github.io/BE-OLS/] - Built Environment Ontology Lookup Service
-- (LOV)[https://lov.linkeddata.es/dataset/lov/)] - Linked Open Vocabularies
+- [BE-OLS](https://cyberbuildlab.github.io/BE-OLS/) - Built Environment Ontology Lookup Service
+- [LOV](https://lov.linkeddata.es/dataset/lov/) - Linked Open Vocabularies
 
 
 
@@ -146,8 +146,8 @@ The goal is to provide a technical reference map of the digital built environmen
 ---
 
 # Inititives ans societies
-- (BIMe)[https://bimexcellence.org/] - BIM Excellence Initiative
-- (Modelling & Standards committee)[https://ec-3.org/governance/technical-committees/modelling-standards-committee/] - a permanent committee of the EC3
+- [BIMe](https://bimexcellence.org/) - BIM Excellence Initiative
+- [Modelling & Standards committee] (https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - a permanent committee of the EC3
 ---
 
 # Datasets and benchmarks

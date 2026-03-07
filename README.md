@@ -254,22 +254,74 @@ Known conferences and workshops related to **digital construction, BIM, digital 
 
 # Datasets and benchmarks
 
+* [Example IFC Files Dataset](https://www.kaggle.com/datasets/claytonmiller/example-ifc-file) – collection of IFC models used in BIM tutorials
+* [BIMData IFC dataset](https://github.com/bimdata/BIMData-Research-and-Development/blob/master/pages/IFC_FILES.md) – collection of IFC models for development and testing
+* [BuildingSmart IFC Datasets](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/ifc-datasets/) – BIM model datasets in IFC format
+* * [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) – BIM model dataset for machine learning
+* [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench) – benchmark dataset for IFC-based machine learning
+* [BuildingNet](https://buildingnet.org/) – building model dataset for machine learning
+* [ArchShapesNet](https://i3l.seoultech.ac.kr/subList/20000005729) – BIM elements dataset for deep learning classification of building components
+* [3DFacilities Dataset](https://www.sciencedirect.com/science/article/pii/S0926580524002942) – dataset of structural and MEP BIM elements for research
+* [Microsoft Global Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) – dataset of building footprints extracted from satellite imagery
+* [Global Building Atlas](https://arxiv.org/abs/2506.04106) – global dataset of building footprints and heights
+* [Habitat-Matterport 3D (HM3D)](https://aihabitat.org/datasets/hm3d/) – dataset of indoor environments used for embodied AI and robotics research
+* [Brick Building Dataset](https://brickschema.org/resources/) – datasets for building systems modelling using the Brick ontology
+* [Open IFC Model Repository](https://github.com/opensourceBIM/TestFiles) – IFC test files for openBIM development
+* [xBIM Toolkit Examples](https://github.com/xBimTeam/XbimSamples) – BIM models used for xBIM development and tutorials
+
 * [Matterport3D](https://niessner.github.io/Matterport/) – indoor scanning dataset
 * [Stanford Computational and Geometry Lab Vision](https://cvgl.stanford.edu/resources.html) – several datasets
 * [KITTI](http://www.cvlibs.net/datasets/kitti/) – autonomous driving dataset with 3D point clouds
-* [Semantic3D](http://www.semantic3d.net/) – large-scale outdoor point cloud dataset
 * [ModelNet](http://modelnet.cs.princeton.edu/) – 3D CAD model dataset
 * [ShapeNet](https://www.shapenet.org/) – large-scale 3D model dataset
 * [ScanNet](http://www.scan-net.org/) – 3D scene dataset
 * [S3DIS](http://buildingparser.stanford.edu/dataset.html) – indoor scene dataset
 * [NIST IFC Repository](https://www.nist.gov/services-resources/software/ifc) – BIM model datasets
-* [BuildingSmart IFC Datasets](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/ifc-datasets/) – BIM model datasets in IFC format
 * [3D Warehouse](https://3dwarehouse.sketchup.com/) – 3D model repository with many building models
-* [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) – BIM model dataset for machine learning
-* [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench) – benchmark dataset for IFC-based machine learning
-* [BuildingNet](https://buildingnet.org/) – building model dataset for machine learning
 * [CityGML 3D City Model Repository](https://www.ogc.org/standards/citygml#datasets) – repository of 3D city models in CityGML format
 * [3D Tiles](https://github.com/CesiumGS/3d-tiles) – 3D geospatial data format with example datasets
+* [Semantic3D](http://www.semantic3d.net/) – large-scale outdoor LiDAR point cloud dataset
+* [Toronto3D](https://github.com/WeikaiTan/Toronto-3D) – mobile LiDAR dataset for urban environments
+* [Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) – urban LiDAR dataset with semantic labels
+* [DALES](https://udayton.edu/engineering/centers/vision_lab/research/dales.php) – aerial LiDAR dataset for urban object segmentation
+* [Structured3D](https://structured3d-dataset.org/) – large-scale dataset of synthetic indoor scenes with detailed room layouts
+* [InteriorNet](https://interiornet.org/) – photorealistic dataset for indoor scene understanding
+* [Replica Dataset](https://github.com/facebookresearch/Replica-Dataset) – high-quality 3D indoor environments for robotics and AIns
+* [OpenStreetMap](https://www.openstreetmap.org/) – global open geospatial dataset
+* [Microsoft Global Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) – global building footprint dataset
+* [Google Open Buildings Dataset](https://sites.research.google/open-buildings/) – large-scale building footprint dataset derived from satellite imagery
+* [Urban Atlas](https://land.copernicus.eu/en/products/urban-atlas) – European land-use and urban spatial dataset
+* [NYC Open Data](https://opendata.cityofnewyork.us/) – large collection of urban infrastructure datasets
+* [SemanticKITTI](http://semantic-kitti.org/) – LiDAR dataset with semantic annotations
+* [AHN3 / AHN4](https://www.ahn.nl/) – Dutch national LiDAR dataset
+* [USGS 3D Elevation Program](https://www.usgs.gov/3d-elevation-program) – national LiDAR datasets for the United States
+* [OpenTopography](https://opentopography.org/) – repository of LiDAR datasets
+* [Building Change Detection Dataset](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html) – dataset for monitoring construction and urban change
+* [SpaceNet Building Dataset](https://github.com/spacenetchallenge) – satellite imagery dataset for building detection
+* [Inria Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/) – aerial imagery dataset with building annotation
+* [ASHRAE Great Energy Predictor Dataset](https://www.kaggle.com/c/ashrae-energy-prediction) – dataset for building energy prediction
+* [Building Data Genome Project](https://github.com/buds-lab/building-data-genome-project-2) – large dataset of building energy consumption
+* [Construction Site Image Dataset](https://github.com/pangyuteng/construction-site-image-dataset) – construction site image dataset for computer vision
+* [Open Construction Dataset](https://github.com/ruoxinx/OpenConstruction-Datasets) – dataset for construction scene understanding
+* [Building Change Detection Dataset](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html) – dataset for detecting construction changes from aerial imagery
+* [Open Transport Data](https://data.europa.eu/data/datasets?query=transport) – European transportation datasets
+* [OpenTraffic](https://opentraffic.io/) – traffic and mobility datasets
+* [Uber Movement](https://www.kaggle.com/datasets/ishandutta/uber-travel-movement-data-2-billion-trips) – urban mobility datasets for cities worldwide
+* [Google Open Building](https://sites.research.google/gr/open-buildings/) – large-scale building footprint dataset derived from satellite imagery
+* [Inria Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/) – aerial imagery dataset with building annotations
+* [DeepGlobe Building Dataset](https://deepglobe.org/challenge.html) – satellite dataset for building extraction
+* [xView Dataset](https://xviewdataset.org/) – satellite imagery dataset for object detection including buildings
+* [ABC Dataset (Architecture, Buildings, Construction)](https://deep-geometry.github.io/abc-dataset/) – large dataset of CAD models used for geometric deep learning
+* [Natural Earth](https://www.naturalearthdata.com/) – public domain map dataset
+* [Copernicus Urban Atlas](https://land.copernicus.eu/en/products/urban-atlas) – European urban land use, buiding height, trees
+* [Eurostat GISCO datasets](https://ec.europa.eu/eurostat/web/gisco/geodata) – European geospatial datasets
+* [Global Human Settlement Layer (GHSL)](https://human-settlement.emergency.copernicus.eu/GHSLWeGenerateData.php) – global dataset describing human settlements
+* [SmartSantander Dataset](https://github.com/Predictia/smartsantander) – IoT sensor data for smart city experiments
+* [Array of Things Sensor Dataset](https://github.com/waggle-sensor/waggle/blob/master/data/README.md) – urban sensor network dataset
+* [CityPulse Dataset](https://iot.ee.surrey.ac.uk:8080/datasets.html) – smart city IoT data streams
+* [Urban Observatory Newcastle](https://urbanobservatory.ac.uk/) – large urban sensor dataset
+* [Open Power System Data](https://open-power-system-data.org/) – energy infrastructure datasets
+* [IDEAS Building Energy Dataset](https://github.com/open-ideas/IDEAS) – building energy modelling datasets
 ---
 
 # Learning resources

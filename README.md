@@ -64,9 +64,22 @@ Core data structures and models used to represent the built environment.
 ## BIM and CAD platforms
 
 * [Autodesk Revit](https://www.autodesk.com/products/revit/) – widely used BIM authoring platform with extensible APIs.
+* [Autodesk AutoCAD](https://www.autodesk.com/products/autocad/) – widely used CAD platform with extensible APIs.
 * [Bentley iTwin](https://www.bentley.com/platform/itwin/) – infrastructure and digital twin platform.
 * [Graphisoft Archicad](https://graphisoft.com/solutions/archicad) – BIM platform with developer extensions.
 * [Trimble Tekla](https://www.tekla.com/) – structural BIM platform.
+* [Nemetschek Allplan](https://www.allplan.com/) – BIM platform for architecture and engineering.
+* [Dassault CATIA](https://www.3ds.com/products-services/catia/) – CAD and BIM platform for complex projects.
+* [Autodesk Civil 3D](https://www.autodesk.com/products/civil-3d/) – civil engineering design software.
+* [Autodesk InfraWorks](https://www.autodesk.com/products/infraworks/) – infrastructure design and visualization platform.
+* [Autodesk Navisworks](https://www.autodesk.com/products/navisworks/) – project review and clash detection software.
+* [Autodesk BIM 360](https://www.autodesk.com/bim-360/) – cloud-based construction management platform.
+* [Autodesk Forge](https://forge.autodesk.com/) – cloud platform for building custom applications and integrations.* [Bentley OpenBuildings](https://www.bentley.com/en/products/brands/openbuildings) – building design and analysis software.
+* [Bentley OpenRoads](https://www.bentley.com/en/products/brands/openroads) – road design and analysis software.
+* [Bentley OpenRail](https://www.bentley.com/en/products/brands/openrail) – rail design and analysis software.
+* [Bentley OpenBridge](https://www.bentley.com/en/products/brands/openbridge) – bridge design and analysis software.
+* [Bentley OpenUtilities](https://www.bentley.com/en/products/brands/openutilities) – utility network design and analysis software. 
+* [Bentley OpenFlows](https://www.bentley.com/en/products/brands/openflows) – water infrastructure design and analysis software.
 
 ## Digital twin platforms
 

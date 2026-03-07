@@ -47,7 +47,53 @@ The goal is to provide a technical reference map of the digital built environmen
 
 ---
 
+## Data layer
+
+Core data structures and models used to represent the built environment.
+
+* [Industry Foundation Classes (IFC)](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) – open BIM data model.
+* [CityGML](https://www.ogc.org/standard/citygml/) – standard for 3D city models.
+* [IndoorGML](https://www.ogc.org/standard/indoorgml/) – indoor spatial information model.
+* [buildingSMART Data Dictionary (bSDD)](https://www.buildingsmart.org/standards/bsi-standards/bsdd/) – standardized terminology and properties.
+
+
+## Application layer
+
 # Proprietary and closed tools
+
+## BIM and CAD platforms
+
+* [Autodesk Revit](https://www.autodesk.com/products/revit/) – widely used BIM authoring platform with extensible APIs.
+* [Bentley iTwin](https://www.bentley.com/platform/itwin/) – infrastructure and digital twin platform.
+* [Graphisoft Archicad](https://graphisoft.com/solutions/archicad) – BIM platform with developer extensions.
+* [Trimble Tekla](https://www.tekla.com/) – structural BIM platform.
+
+## Digital twin platforms
+
+* [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins)
+* [Oracle IoT Digital Twin](https://docs.oracle.com/en/cloud/paas/iot-cloud/)
+* [Dassault 3DEXPERIENCE](https://www.3ds.com/3dexperience)
+* [Bentley iTwin Platform](https://www.bentley.com/platform/itwin)
+
+## Simulation and analysis
+
+* [EnergyPlus](https://energyplus.net/) – building energy simulation.
+* [OpenStudio](https://www.openstudio.net/) – energy modelling platform.
+* [ANSYS](https://www.ansys.com/) – engineering simulation.
+
+  
+# Open-source tools
+
+## Building modelling and BIM
+Tools used to create, manipulate, and analyse digital built environment models.
+
+* [IfcOpenShell](https://ifcopenshell.org/) – Open-source IFC toolkit and geometry engine for working with BIM models.
+* [BHoM](https://github.com/BHoM/BHoM) – Interoperability framework for sharing built-environment data.
+* [Topologic](https://topologic.app/) – Topological spatial modelling software for representing building spaces and relationships.
+* [Rhino.Compute](https://compute.rhino3d.com/) – API enabling remote execution of Rhino and Grasshopper models.
+* [Hypar](https://hypar.io/) – Generative design platform for parametric BIM workflows.
+* [BlenderBIM / Bonsai](https://bonsaibim.org/) – Open-source BIM authoring environment built on Blender.
+* [FreeCAD BIM Workbench](https://wiki.freecad.org/BIM_Workbench) – Open BIM modelling tools for FreeCAD.
 
 ## BIM and CAD platforms
 
@@ -56,11 +102,11 @@ The goal is to provide a technical reference map of the digital built environmen
 * **Graphisoft Archicad** – BIM platform with developer extensions.
 * 
 
-## Digital twin platforms
+Systems for integrating data, simulation, and monitoring of built assets.
 
-* **Azure Digital Twins**
-* **Oracle IoT Digital Twin**
-* **Dassault 3DEXPERIENCE**
+* [Eclipse Ditto](https://www.eclipse.org/ditto/) – open digital twin framework.
+* [Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins) – cloud-based digital twin platform.
+* [Asset Administration Shell](https://industrialdigitaltwin.org/) – digital twin standard for Industry 4.0.
 
 ## Simulation and analysis
 
@@ -78,18 +124,14 @@ The goal is to provide a technical reference map of the digital built environmen
 
 # Graph databases and data infrastructure
 
-## RDF triple stores
 
-* **Apache Jena / Fuseki**
-* **Virtuoso**
-* **GraphDB**
-* **Blazegraph**
+## Graph databases and RDF triple stores
 
-## Graph databases
+* [GraphDB](https://graphdb.ontotext.com/) – knowledge graph database.
+* [Neo4j](https://neo4j.com/) – graph database.
+* [Apache Jena](https://jena.apache.org/) – RDF framework and triple store.
 
-* [Neo4j](https://neo4j.com/) **Neo4j** 
-*  
-
+  
 ## Spatial and relational databases
 
 * **PostgreSQL / PostGIS**
@@ -98,9 +140,6 @@ The goal is to provide a technical reference map of the digital built environmen
 
 # Digital twin 
 
-* **Eclipse Ditto** – open framework for building digital twins of connected devices.
-* **Azure Digital Twins** – Microsoft cloud service for modelling environments and relationships.
-* **Asset Administration Shell (AAS)** – Industry 4.0 digital twin specification.
 
 ---
 
@@ -116,17 +155,17 @@ The goal is to provide a technical reference map of the digital built environmen
 ## Standards
 
 * [BIM Standards Landscape Explorer](https://ec-3.org/BIM-Standards-Landscape-Explorer.html)
-* **bSDD** – buildingSMART Data Dictionary.
+* [IFC](
 * **CityGML**
 * **IndoorGML**
 
 ## Semantic Web standards
 
-* **RDF**
-* **RDFS**
-* **OWL**
-* **SHACL**
-* **SPARQL**
+* [RDF](https://www.w3.org/RDF/)
+* [RDFS](https://www.w3.org/TR/rdf-schema/)
+* [OWL](https://www.w3.org/OWL/)
+* [SHACL](https://www.w3.org/TR/shacl/)
+* [SPARQL](https://www.w3.org/TR/sparql11-query/)
 
 ---
 
@@ -138,10 +177,10 @@ The goal is to provide a technical reference map of the digital built environmen
 
 # Conferences and workshops
 
-* **EC3 – European Council on Computing for Construction**
-* **CIB W78 – Information Technology in Construction**
-* **ISARC – International Symposium on Automation and Robotics in Construction**
-* **LDAC – Linked Data in Architecture and Construction**
+* [EC3 – European Council on Computing in Construction](https://ec-3.org/)
+* [CIB W78 – Information Technology in Construction](https://www.cibw78.org/)
+* [ISARC – International Symposium on Automation and Robotics in Construction](https://www.isarc.org/)
+* [LDAC – Linked Data in Architecture and Construction](http://www.linkedbuildingdata.net/ldac/)
 
 ---
 
@@ -152,10 +191,11 @@ The goal is to provide a technical reference map of the digital built environmen
 
 # Datasets and benchmarks
 
-* **Matterport3D** – indoor scanning dataset.
-* **ScanNet** – 3D scene dataset for reconstruction and segmentation.
-* **NIST IFC repository** – building model datasets.
-
+* [Matterport3D](https://niessner.github.io/Matterport/) – indoor scanning dataset
+* [ScanNet](http://www.scan-net.org/) – 3D scene dataset
+* [NIST IFC Repository](https://www.nist.gov/services-resources/software/ifc) – BIM model datasets
+* [IFCNet]([https://github.com/RWTH-E3D/ifcnet-models?tab=readme-ov-file](https://ifcnet.e3d.rwth-aachen.de/)
+* [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench)
 ---
 
 # Learning resources

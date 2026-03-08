@@ -281,7 +281,16 @@ Known conferences and workshops related to **digital construction, BIM, digital 
 * [Brick Building Dataset](https://brickschema.org/resources/) – datasets for building systems modelling using the Brick ontology
 * [Open IFC Model Repository](https://github.com/opensourceBIM/TestFiles) – IFC test files for openBIM development
 * [xBIM Toolkit Examples](https://github.com/xBimTeam/XbimSamples) – BIM models used for xBIM development and tutorials
-
+* [BIM-NLQ Dataset for NLQ4BIM]https://github.com/MengtianYin/BIM-NLQI)
+* [Dataset Schependomlaan](https://github.com/jakob-beetz/DataSetSchependomlaan) - IFC dataset for a residential building in the Netherlands
+* [BIM Whale](https://github.com/andrewisen/bim-whale-ifc-samples?tab=readme-ov-files) - a collection of IFC sample files for the BIM Whale project
+* [The nation-scale fine-GrAined 3D BuiLding modEl (GABLE)](https://github.com/AICyberTeam/GABLE) - large-scale building model dataset for machine learning (Beijing, China)
+* [Awesome CityGML](https://github.com/OloOcki/awesome-citygml) – curated list of CityGML datasets and resources of different cities
+* [3D City Database](https://github.com/3dcitydb/3dcitydb) - open-source database for storing and managing 3D city models with example datasets
+* [Open City Mdodel](https://github.com/opencitymodel/opencitymodel) - an initiative to provide open cityGML data for all the buildings in the USA
+* [Ifc Sample files](https://github.com/youshengCode/IfcSampleFiles) – sample IFC files for testing and benchmarking
+* [Tokyo SpatialID Dataset](https://github.com/tlab-wide/SpatialID) - large-scale csv dataset for Tokyo, Japan
+* [Polygon City Berlin](https://github.com/polygon-city/polygon-city-berlin-export) - CityGML dataset for Berlin, Germany
 * [Matterport3D](https://niessner.github.io/Matterport/) – indoor scanning dataset
 * [Stanford Computational and Geometry Lab Vision](https://cvgl.stanford.edu/resources.html) – several datasets
 * [KITTI](http://www.cvlibs.net/datasets/kitti/) – autonomous driving dataset with 3D point clouds

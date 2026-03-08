@@ -227,7 +227,8 @@ Known conferences and workshops related to **digital construction, BIM, digital 
 * [TwinArch – Digital Twin Architecture Workshop](https://www.iese.fraunhofer.de/en/twinarch.html) – workshop on digital twin architectures.
 * [ACM BuildSys](https://buildsys.acm.org/) – conference on systems for smart buildings and cities.
 * [IEEE Smart Cities](https://smartcities.ieee.org/) – conference series on smart city technologies.
-* [TUM GNI Symposium 2026](https://events.gni.tum.de/ai-symposium-2026/) – symposium on digital transformation in the built environment organized by TUM.  
+* [TUM GNI Symposium 2026](https://events.gni.tum.de/ai-symposium-2026/) – symposium on digital transformation in the built environment organized by TUM.
+* [ICSA2027 - 7th International Conference on Structures and Architecture](https://www.linkedin.com/company/icsa-2027-milano/)
 
 
 ##National Conferences and Workshops
@@ -270,7 +271,7 @@ Known conferences and workshops related to **digital construction, BIM, digital 
 * [Example IFC Files Dataset](https://www.kaggle.com/datasets/claytonmiller/example-ifc-file) – collection of IFC models used in BIM tutorials
 * [BIMData IFC dataset](https://github.com/bimdata/BIMData-Research-and-Development/blob/master/pages/IFC_FILES.md) – collection of IFC models for development and testing
 * [BuildingSmart IFC Datasets](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/ifc-datasets/) – BIM model datasets in IFC format
-* * [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) – BIM model dataset for machine learning
+* [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) – BIM model dataset for machine learning
 * [IfCBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench) – benchmark dataset for IFC-based machine learning
 * [BuildingNet](https://buildingnet.org/) – building model dataset for machine learning
 * [ArchShapesNet](https://i3l.seoultech.ac.kr/subList/20000005729) – BIM elements dataset for deep learning classification of building components

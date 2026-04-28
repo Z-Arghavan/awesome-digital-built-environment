@@ -166,8 +166,39 @@ Systems for integrating data, simulation, and monitoring of built assets.
 
 ## Simulation and analysis
 
+* [EnergyPlus](https://energyplus.net/) – open-source whole-building energy simulation engine developed by the US DOE.
+* [OpenStudio](https://openstudio.net/) – open-source platform wrapping EnergyPlus for energy modelling and analysis workflows.
+* [Ladybug Tools](https://www.ladybug.tools/) – open-source suite for environmental analysis in Grasshopper and Rhino; covers daylight, solar, wind, and thermal comfort.
+* [OpenFOAM](https://www.openfoam.com/) – open-source CFD toolkit widely used for airflow, wind, and thermal simulations around and within buildings.
+* [OpenSees](https://opensees.berkeley.edu/) – open-source framework for structural and geotechnical earthquake engineering simulation.
+* [FEniCS](https://fenicsproject.org/) – open-source platform for solving partial differential equations, used in structural and fluid analysis.
+* [TEASER](https://github.com/RWTH-EBC/TEASER) – tool for energy analysis and simulation for early retrofit planning of building stocks.
+* [RC\_BuildingSimulator](https://github.com/architecture-building-systems/RC_BuildingSimulator) – simplified thermal building simulation based on the ISO 13790 resistance-capacitance model.
 
+## Point cloud and scan-to-BIM
 
+* [CloudCompare](https://www.cloudcompare.org/) – open-source 3D point cloud and mesh processing software; widely used for scan-to-BIM workflows.
+* [Open3D](http://www.open3d.org/) – open-source library for 3D data processing including point clouds, meshes, and RGBD data.
+* [PDAL](https://pdal.io/) – open-source point cloud data abstraction library for reading, filtering, and writing point cloud data.
+* [Potree](https://potree.github.io/) – open-source WebGL-based renderer for large point clouds in the browser.
+* [py3dtiles](https://gitlab.com/py3dtiles/py3dtiles) – Python library for creating and manipulating 3D Tiles from point clouds and other data.
+* [lidR](https://github.com/r-lidar/lidR) – R package for airborne LiDAR data processing and analysis.
+* [OPALS](https://opals.geo.tuwien.ac.at/) – software for processing and analysing airborne laser scanning data; developed at TU Wien.
+
+---
+## GIS and geospatial tools
+
+* [QGIS](https://qgis.org/) – open-source desktop GIS platform with extensive plugin ecosystem including BIM and CityGML support.
+* [GDAL](https://gdal.org/) – open-source library for reading and writing raster and vector geospatial data formats.
+* [PostGIS](https://postgis.net/) – open-source spatial extension for PostgreSQL; widely used for storing and querying geospatial data.
+* [GeoServer](https://geoserver.org/) – open-source server for sharing geospatial data via OGC standards (WMS, WFS, WCS).
+* [CesiumJS](https://cesium.com/cesiumjs/) – open-source JavaScript library for 3D geospatial visualisation in the browser; supports 3D Tiles and IFC.
+* [deck.gl](https://deck.gl/) – open-source WebGL-powered large-scale data visualisation framework by Uber; widely used for urban analytics.
+* [Kepler.gl](https://kepler.gl/) – open-source geospatial analysis tool for large-scale datasets, built on deck.gl.
+* [OpenLayers](https://openlayers.org/) – open-source JavaScript library for interactive web maps.
+* [Leaflet](https://leafletjs.com/) – lightweight open-source JavaScript library for mobile-friendly interactive maps.
+* [3dcitydb](https://www.3dcitydb.org/) – open-source database solution for storing and managing 3D city models in CityGML format.
+* [citygml4j](https://github.com/citygml4j/citygml4j) – open-source Java library for reading, writing, and processing CityGML datasets.
 ---
 
 ## Ontologies

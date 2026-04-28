@@ -46,6 +46,49 @@ The goal is to provide a technical reference map of the digital built environmen
 * **Hypar** – Generative design platform for parametric BIM workflows.
 
 ---
+## IFC tools
+
+### Viewers – desktop (free)
+
+* [Bonsai / BlenderBIM](https://bonsaibim.org/) – open-source BIM authoring and viewing environment built on Blender. Already listed above.
+* [xBIM Xplorer](https://xbim.net/xbim-xplorer/) – free and open-source IFC viewer written in C#, with stand-alone and web versions. Demonstrates the capabilities of the xBIM Toolkit.
+* [FZK Viewer](https://www.iai.kit.edu/english/1648.php) – developed by Karlsruhe Institute of Technology (KIT); good at displaying IFC data that other viewers skip.
+* [BIMvision](https://bimvision.eu/) – freeware IFC viewer supporting IFC 2×3 and 4.0, with a plugin interface. Not open-source.
+* [Open IFC Viewer](https://openifcviewer.com/) – free professional-grade viewer by the Open Design Alliance, supporting IFC 2x3 to 4.1 with clash detection and validation. Not open-source.
+* [Solibri Anywhere](https://www.solibri.com/solibri-anywhere) – free registration-required viewer; widely regarded as the benchmark IFC viewer for quality checking. Not open-source.
+* [BIMcollab ZOOM](https://www.bimcollab.com/en/go/free-ifc-viewer/) – free viewer with smart views, dynamic filtering, BCF issue management, and point cloud support. Not open-source.
+* [Dalux BIM Viewer](https://www.dalux.com/bim-viewer/) – free IFC viewer with desktop and mobile support.
+
+### Viewers – web / browser (free)
+
+* [That Open / IFC.js](https://ifcjs.github.io/info/) – open-source browser-based IFC viewer and toolkit built on Three.js, with clipping planes, 2D plan generation, and dimensions.
+* [web-ifc-viewer](https://github.com/ThatOpen/web-ifc-viewer) – extension of web-ifc-three; provides a full API for building BIM tools in the browser.
+* [xeokit BIM Viewer](https://github.com/xeokit/xeokit-bim-viewer) – open-source WebGL viewer built on the xeokit SDK; supports IFC, point clouds, and double-precision coordinates.
+* [Flinker IFC Viewer](https://viewer.flinker.app/) – free browser viewer with fully local processing (no upload), supporting IFC 2x3/4/4x3, BCF 2.1/3, and IDS 1.0 validation.
+* [Sortdesk IFC Viewer](https://viewer.sortdesk.com/) – free browser-based viewer with built-in IDS rule editor.
+
+### Parsers and SDKs
+
+* [IfcOpenShell](https://ifcopenshell.org/) – the primary open-source IFC toolkit and geometry engine, supporting Python and C++. Supports IFC2X3, IFC4, IFC4X3.
+* [web-ifc](https://github.com/ThatOpen/engine_web-ifc) – WebAssembly-based IFC parser in JavaScript for reading and writing IFC files at native speed. Foundation of IFC.js.
+* [xBIM Toolkit](https://docs.xbim.net/) – open-source .NET toolkit for reading, creating, and viewing IFC files, with geometry engine and COBie support.
+* [IfcPlusPlus](https://github.com/ifcquery/ifcplusplus) – C++ library for reading and writing IFC files, with an OpenSceneGraph-based viewer.
+* [IFC.js / web-ifc-three](https://github.com/ThatOpen/engine_three-ifc) – official IFC loader for Three.js.
+* [GeometryGym](https://github.com/jmirtsch/GeometryGym) – C# library for generating and parsing IFC and other open BIM standards.
+
+### Validators and quality checking
+
+* [buildingSMART Validation Service](https://validate.buildingsmart.org/) – official online IFC validator by buildingSMART.
+* [IfcDoc](https://github.com/buildingSMART/IfcDoc) – tool for documenting and validating IFC schemas; used to author the official IFC specification.
+* [IDS (Information Delivery Specification)](https://github.com/buildingSMART/IDS) – buildingSMART standard for defining and checking model requirements; supported by several validators above.
+
+### Converters and pipelines
+
+* [IfcConvert](https://ifcopenshell.org/ifcconvert) – command-line tool (part of IfcOpenShell) for converting IFC to OBJ, DAE, GLB, SVG, and more.
+* [IFC2CA](https://github.com/KC-Lab/IFC2CA) – converts IFC structural models for use in structural analysis tools.
+* [IFC to CityGML](https://github.com/tum-gis/ifc2citygml) – converts IFC building models to CityGML format.
+
+---
 
 ## Data layer
 

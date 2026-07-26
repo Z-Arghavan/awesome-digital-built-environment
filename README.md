@@ -427,7 +427,7 @@ Known conferences and workshops related to **digital construction, BIM, digital 
 
 ## Courses
 
-* BIM and digital twin courses on **Coursera** and **edX**
+
 
 
 ---

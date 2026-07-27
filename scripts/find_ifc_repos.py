@@ -19,6 +19,16 @@ CATEGORY_QUERIES = {
         "topic:buildingsmart",
         "IFC BIM in:description,name",
     ],
+    "buildingSMART standards (IDS, bSDD, IFC5, BCF)": [
+        "topic:ids",
+        "IDS Information Delivery Specification buildingSMART",
+        "topic:bsdd",
+        "bSDD buildingSMART Data Dictionary",
+        "topic:ifc5",
+        "IFC5 buildingSMART",
+        "topic:bcf",
+        "BCF BIM Collaboration Format",
+    ],
 }
 
 ISSUE_TITLE = "New IFC/BIM repos to review"

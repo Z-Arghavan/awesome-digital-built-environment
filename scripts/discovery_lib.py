@@ -17,10 +17,12 @@ README_PATH = "README.md"
 
 MIN_STARS = 2
 EXCLUDE_FORKS = True
-PER_PAGE = 100        # GitHub's max per page
-MAX_PAGES = 5          # 5 pages x 100 = up to 500 results per query
-REQUEST_DELAY = 2      # seconds between requests, stays well under rate limits
-MAX_PER_CATEGORY = 40  # cap listed candidates per category to keep issue readable
+PER_PAGE = 100           # GitHub's max per page
+MAX_PAGES = 5             # 5 pages x 100 = up to 500 results per query
+REQUEST_DELAY = 2         # seconds between requests, stays well under rate limits
+MAX_PER_CATEGORY = 25     # cap listed candidates per category to keep issue readable
+MAX_DESC_LENGTH = 120     # truncate long repo descriptions
+MAX_BODY_LENGTH = 60000   # stay under GitHub's 65536-char issue body limit
 
 
 def existing_urls():
@@ -75,12 +77,20 @@ def build_issue_body(candidates_by_category):
             continue
         lines.append(f"### {category}")
         for repo in candidates[:MAX_PER_CATEGORY]:
+            desc = repo["description"] or "no description"
+            if len(desc) > MAX_DESC_LENGTH:
+                desc = desc[:MAX_DESC_LENGTH].rsplit(" ", 1)[0] + "..."
             lines.append(
                 f"- [ ] [{repo['full_name']}]({repo['html_url']}) "
-                f"({repo['stargazers_count']} stars): {repo['description'] or 'no description'}"
+                f"({repo['stargazers_count']} stars): {desc}"
             )
         lines.append("")
-    return "\n".join(lines)
+
+    body = "\n".join(lines)
+    if len(body) > MAX_BODY_LENGTH:
+        body = body[:MAX_BODY_LENGTH]
+        body += "\n\n_List truncated, too many candidates to fit in one issue. Lower MAX_PER_CATEGORY or MIN_STARS to narrow results next run._"
+    return body
 
 
 def find_open_tracking_issue(repo, headers, title, label):
@@ -103,6 +113,8 @@ def create_or_update_issue(repo, headers, title, label, body):
         url = f"{GITHUB_API}/repos/{repo}/issues"
         payload = {"title": title, "body": body, "labels": [label]}
         resp = requests.post(url, headers=headers, json=payload, timeout=30)
+    if not resp.ok:
+        print(f"GitHub API error {resp.status_code}: {resp.text}", file=sys.stderr)
     resp.raise_for_status()
     return resp.json()
 

@@ -18,8 +18,9 @@ README_PATH = "README.md"
 MIN_STARS = 2
 EXCLUDE_FORKS = True
 PER_PAGE = 100           # GitHub's max per page
-MAX_PAGES = 5             # 5 pages x 100 = up to 500 results per query
-REQUEST_DELAY = 2         # seconds between requests, stays well under rate limits
+MAX_PAGES = 3             # 3 pages x 100 = up to 300 results per query
+REQUEST_DELAY = 3         # seconds between EVERY search request, not just pages
+MAX_RETRIES = 5           # retries on rate-limit responses before giving up
 MAX_PER_CATEGORY = 25     # cap listed candidates per category to keep issue readable
 MAX_DESC_LENGTH = 120     # truncate long repo descriptions
 MAX_BODY_LENGTH = 60000   # stay under GitHub's 65536-char issue body limit
@@ -30,6 +31,36 @@ def existing_urls():
     with open(README_PATH, encoding="utf-8") as f:
         text = f.read()
     return set(re.findall(r"https://github\.com/[\w\-./]+", text))
+
+
+def _get_with_backoff(url, headers, params):
+    """GET with automatic backoff/retry on GitHub rate limit responses
+    (403 secondary rate limit, or 429). Sleeps a fixed delay before every
+    call regardless, since GitHub's search API allows only ~30 req/min
+    for authenticated requests and that budget is shared across every
+    query this script makes in one run."""
+    for attempt in range(1, MAX_RETRIES + 1):
+        time.sleep(REQUEST_DELAY)
+        resp = requests.get(url, headers=headers, params=params, timeout=30)
+
+        if resp.status_code in (403, 429):
+            retry_after = resp.headers.get("Retry-After")
+            if retry_after:
+                wait = int(retry_after) + 1
+            else:
+                reset = resp.headers.get("X-RateLimit-Reset")
+                if reset:
+                    wait = max(int(reset) - int(time.time()) + 1, REQUEST_DELAY)
+                else:
+                    wait = REQUEST_DELAY * (2 ** attempt)  # exponential backoff fallback
+            print(f"Rate limited (attempt {attempt}/{MAX_RETRIES}), waiting {wait}s...", file=sys.stderr)
+            time.sleep(wait)
+            continue
+
+        resp.raise_for_status()
+        return resp
+
+    raise RuntimeError(f"Gave up after {MAX_RETRIES} retries on rate limiting: {url}")
 
 
 def search_repos(query, seen_ids, headers):
@@ -43,8 +74,7 @@ def search_repos(query, seen_ids, headers):
             "per_page": PER_PAGE,
             "page": page,
         }
-        resp = requests.get(url, headers=headers, params=params, timeout=30)
-        resp.raise_for_status()
+        resp = _get_with_backoff(url, headers, params)
         items = resp.json().get("items", [])
         if not items:
             break
@@ -61,8 +91,6 @@ def search_repos(query, seen_ids, headers):
 
         if len(items) < PER_PAGE:
             break
-
-        time.sleep(REQUEST_DELAY)
     return results
 
 

@@ -207,11 +207,7 @@ To add something to the list, please submit a pull request or open an issue.
 
 ---
 
-## Data spaces
-
-Architectures and platforms for secure and interoperable data sharing across organisations. Data spaces are increasingly used for built environment, smart city, and industrial digital twin ecosystems.
-
-### Frameworks and architectures
+## Data spaces - Frameworks and architectures
 
 - [International Data Spaces (IDS)](https://internationaldataspaces.org/) - Reference architecture for secure data exchange between organisations.
 - [GAIA-X](https://gaia-x.eu/) - European initiative for federated cloud and data infrastructure.

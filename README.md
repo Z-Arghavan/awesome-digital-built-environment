@@ -207,8 +207,9 @@ To add something to the list, please submit a pull request or open an issue.
 
 ---
 
-## Data spaces - Frameworks and architectures
+## Data spaces
 
+ ### Frameworks and architectures
 - [International Data Spaces (IDS)](https://internationaldataspaces.org/) - Reference architecture for secure data exchange between organisations.
 - [GAIA-X](https://gaia-x.eu/) - European initiative for federated cloud and data infrastructure.
 - [Eclipse Dataspace Components](https://github.com/eclipse-edc) - Open-source implementation of the IDS architecture.

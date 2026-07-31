@@ -232,6 +232,102 @@ To add something to the list, please submit a pull request or open an issue.
 
 ---
 
+## Artificial intelligence and machine learning
+
+Open-source tools, models, agents, benchmarks, and research implementations applying artificial intelligence to buildings, infrastructure, construction, cities, and the wider built environment.
+
+### AI for BIM and IFC
+
+- [Text2BIM](https://github.com/dcy0577/Text2BIM) - LLM-based multi-agent framework for generating editable BIM models from natural-language design instructions.
+- [BIM LLM Code Agent](https://github.com/mac999/BIM_LLM_code_agent) - Research implementation for evaluating LLM reasoning, code generation, and task execution over BIM and IFC models.
+- [BIM Graph Agent](https://github.com/mac999/BIM_graph_agent) - Converts IFC models into Neo4j graphs and provides natural-language querying through an LLM-based agent.
+- [IFC-MCP](https://github.com/ekkodale/IFC-MCP) - Model Context Protocol server exposing IFC extraction, filtering, aggregation, and analysis tools to language models.
+- [IFC Bonsai MCP](https://github.com/Show2Instruct/ifc-bonsai-mcp) - MCP server connecting language models to Bonsai for reading, creating, and editing IFC models.
+- [AskSchema](https://github.com/Z-Arghavan/AskOntology2) - Schema-grounded retrieval and question-answering system using embeddings, vector search, subgraph expansion, and LLMs for ontology and information-model exploration.
+- [BIM-NLQI](https://github.com/MengtianYin/BIM-NLQI) - Natural-language question and query dataset for evaluating interfaces to BIM models.
+- [IfcBench](https://github.com/sylvainHellin/ifc-bench) - Benchmark for evaluating AI comprehension and reasoning over IFC models using curated models and question-answer pairs.
+- [BimReq](https://github.com/dsd-sztaki-hu/BimReq) - Ontology-based representation of construction regulations and requirements that can support symbolic and neuro-symbolic BIM compliance systems.
+- [pygaeb](https://github.com/frameIQ/pygaeb) - Python parser for GAEB construction data with support for LLM-assisted classification of construction items.
+
+### LLM agents and natural-language interfaces
+
+- [DDC Skills for AI Agents in Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) - Reusable AI-agent skills for BIM analysis, cost estimation, scheduling, document control, and construction automation.
+- [ArchSight AIOS](https://github.com/ArchSightLabs/archsight-aios) - Agent and workflow toolkit for BIM, IFC, document retrieval, and RAG-based construction knowledge work.
+- [Construction AI Agent](https://github.com/tayyabmughal676/Construction_AI_Agent) - Experimental agentic system for automating construction-industry workflows.
+- [OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP) - Open-source construction ERP with AI-supported quantity take-off, cost matching, BIM processing, and multilingual construction catalogues.
+- [OpenConstructionEstimate](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR) - Multilingual construction cost knowledge base designed for use with AI assistants and construction-estimation agents.
+- [Geospatial Code Agent](https://github.com/aws-samples/sample-geospatial-code-agent) - Natural-language agent that generates and executes geospatial analysis workflows over satellite and spatial data.
+
+### Computer vision for construction
+
+- [AECVision](https://github.com/PawelKinczyk/AECVision) - Computer-vision project for detecting construction and architectural elements in drawings and site imagery.
+- [BD3 Dataset](https://github.com/Praveenkottari/BD3-Dataset) - Annotated building-defect image dataset for training and evaluating automatic inspection models.
+- [Construction Site Image Dataset](https://github.com/pangyuteng/construction-site-image-dataset) - Annotated images of construction activities and objects for computer-vision research.
+- [OpenConstruction Datasets](https://github.com/ruoxinx/OpenConstruction-Datasets) - Collection of datasets for construction-scene understanding and visual recognition.
+- [BIMNet](https://github.com/LydJason/BIMNet) - Dataset and benchmark for reconstructing as-built BIM models from real-world point clouds.
+- [Cloud2BIM](https://github.com/VaclavNezerka/Cloud2BIM) - Automated point-cloud processing pipeline for creating BIM representations.
+- [Open3D-ML](https://github.com/isl-org/Open3D-ML) - Machine-learning extension to Open3D for semantic segmentation and object detection in 3D data.
+- [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) - Sparse tensor deep-learning library widely used for semantic segmentation and learning from large point clouds.
+- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) - Open-source framework for 3D object detection and semantic segmentation using point clouds and multimodal data.
+- [Torch Points3D](https://github.com/torch-points3d/torch-points3d) - PyTorch framework for machine learning on point clouds and 3D spatial data.
+- [Segment Anything](https://github.com/facebookresearch/segment-anything) - Foundation segmentation model frequently adapted for buildings, defects, drawings, satellite imagery, and construction-site analysis.
+- [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) - Open-set object detection model using text prompts, useful for construction and built-environment image analysis.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) - Computer-vision framework providing YOLO models for object detection, segmentation, tracking, and pose estimation.
+
+### Generative design and spatial intelligence
+
+- [House-GAN++](https://github.com/ennauata/houseganpp) - Graph-constrained generative model for producing residential floor plans.
+- [Graph2Plan](https://github.com/HanHan55/Graph2plan) - Deep-learning method for generating floor plans from layout graphs and building boundaries.
+- [Floor-SP](https://github.com/woodfrog/floor-sp) - Deep structured model for reconstructing floor plans from indoor point clouds.
+- [RoomFormer](https://github.com/ywyue/RoomFormer) - Transformer-based model for reconstructing structured floor plans from point-cloud data.
+- [HEAT](https://github.com/woodfrog/heat) - Holistic edge-attention transformer for reconstructing building wireframes and floor-plan geometry.
+- [Structured3D](https://github.com/bertjiazheng/Structured3D) - Large synthetic dataset and tools for structured indoor scene understanding and layout reconstruction.
+- [AI4CAD](https://github.com/gudo7208/awesome-ai4cad) - Curated collection of research and implementations covering AI for CAD, BIM, geometric modelling, and engineering design.
+- [DeepCAD](https://github.com/ChrisWu1997/DeepCAD) - Generative deep-learning system for representing and generating CAD construction sequences.
+
+### Building control and reinforcement learning
+
+- [CityLearn](https://github.com/intelligent-environments-lab/CityLearn) - Gymnasium environment for multi-agent reinforcement learning in building energy coordination and urban demand response.
+- [BOPTEST](https://github.com/ibpsa/project1-boptest) - Standardised framework for testing and benchmarking advanced building-control strategies using detailed simulation models.
+- [BOPTEST-Gym](https://github.com/ibpsa/project1-boptest-gym) - Gymnasium interface for training and evaluating reinforcement-learning controllers with BOPTEST building models.
+- [Sinergym](https://github.com/ugr-sail/sinergym) - Gymnasium environment connecting reinforcement-learning algorithms with EnergyPlus building simulations.
+- [GridLearn](https://github.com/apigott/GridLearn) - Multi-agent reinforcement-learning testbed for building energy coordination, demand response, and power-flow analysis.
+- [HV-Ai-C](https://github.com/VectorInstitute/HV-Ai-C) - Reinforcement-learning framework and experiments for intelligent HVAC control.
+- [RL Building Control](https://github.com/rdnfn/rl-building-control) - Curated collection of reinforcement-learning environments and projects for building automation and energy management.
+- [Building Load Forecasting](https://github.com/climatechange-ai-tutorials/building-load-forecasting) - Reproducible tutorial for applying machine learning to building energy-demand forecasting.
+- [Building Control with BOPTEST](https://github.com/climatechange-ai-tutorials/building-control-boptest) - Tutorial demonstrating reinforcement learning for building control using BOPTEST.
+- [CityLearn Tutorial](https://github.com/climatechange-ai-tutorials/citylearn) - Practical introduction to reinforcement-learning control for grid-interactive buildings and communities.
+- [Counterfactual Models for Energy Saving](https://github.com/climatechange-ai-tutorials/counterfactual-models-energy-saving) - Machine-learning workflow for measurement and verification of building energy savings.
+
+### GeoAI and urban intelligence
+
+- [TorchGeo](https://github.com/microsoft/torchgeo) - PyTorch library providing geospatial datasets, samplers, transforms, and pretrained models for machine learning.
+- [GeoAI](https://github.com/opengeos/geoai) - Python package integrating artificial intelligence with satellite imagery, aerial photography, vector data, and geospatial analysis.
+- [TerraTorch](https://github.com/IBM/terratorch) - Toolkit for fine-tuning and evaluating geospatial foundation models.
+- [Prithvi](https://github.com/NASA-IMPACT/hls-foundation-os) - Foundation model and workflows for Earth-observation imagery developed around harmonised Landsat and Sentinel data.
+- [Clay Foundation Model](https://github.com/Clay-foundation/model) - Open geospatial foundation model for extracting representations from Earth-observation data.
+- [SatMAE](https://github.com/sustainlab-group/SatMAE) - Masked autoencoder for learning general representations from temporal and multispectral satellite imagery.
+- [Scale-MAE](https://github.com/bair-climate-initiative/scale-mae) - Scale-aware masked autoencoder for learning from remote-sensing imagery at different spatial resolutions.
+- [GeoSeg](https://github.com/WangLibo1995/GeoSeg) - Semantic-segmentation framework for buildings, roads, land cover, and other features in remote-sensing imagery.
+- [GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas) - Resources associated with large-scale mapping of building footprints and heights.
+- [Awesome Urban Foundation Models](https://github.com/usail-hkust/Awesome-Urban-Foundation-Models) - Curated literature and resources covering foundation models for urban planning, mobility, energy, environment, and public services.
+- [Awesome Remote-Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models) - Collection of remote-sensing foundation models, benchmarks, datasets, and fine-tuning frameworks.
+
+### AI benchmarks and datasets
+
+- [IfcBench](https://github.com/sylvainHellin/ifc-bench) - Benchmark for measuring the ability of AI systems to comprehend and reason about IFC models.
+- [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) - IFC component dataset for machine-learning classification and representation learning.
+- [BuildingNet](https://github.com/buildingnet/buildingnet_dataset) - Large-scale annotated building-model dataset for semantic segmentation and component understanding.
+- [ArchShapesNet](https://i3l.seoultech.ac.kr/subList/20000005729) - Dataset of BIM elements for deep-learning-based component classification.
+- [BIMNet](https://github.com/LydJason/BIMNet) - Benchmark for reconstructing BIM models from real-world point clouds.
+- [BD3 Dataset](https://github.com/Praveenkottari/BD3-Dataset) - Building-defect detection dataset containing annotated real-world images.
+- [Structured3D](https://github.com/bertjiazheng/Structured3D) - Synthetic indoor dataset containing geometry, layouts, semantics, and photorealistic renderings.
+- [SpaceNet](https://github.com/SpaceNetChallenge) - Benchmark datasets and challenges for building extraction, road detection, and geospatial machine learning.
+- [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Global building-footprint dataset produced using machine-learning models over satellite imagery.
+- [PANGAEA](https://github.com/VMarsocci/pangaea-bench) - Benchmark for evaluating geospatial foundation models across diverse Earth-observation tasks.
+
+---
+
 ## Standards and specifications
 
 ### Standards

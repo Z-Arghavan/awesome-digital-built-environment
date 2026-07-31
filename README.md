@@ -328,80 +328,6 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 
 ---
 
-## Standards and specifications
-
-### Standards
-
-- [BIM Standards Landscape Explorer](https://ec-3.org/BIM-Standards-Landscape-Explorer.html)
-- [buildingSMART standards](https://www.buildingsmart.org/standards/)
-- [IFC](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/)
-- [OGC standards](https://www.ogc.org/standards) - Including CityGML, IndoorGML, and 3D Tiles.
-- [IFC4.x-development](https://github.com/buildingSMART/IFC4.x-development) - Repository tracking updates to the IFC4.3 specification.
-- [IFC5-development](https://github.com/buildingSMART/IFC5-development) - Development repository for the next generation of Industry Foundation Classes.
-
-### Semantic web standards
-
-- [RDF](https://www.w3.org/RDF/)
-- [RDFS](https://www.w3.org/TR/rdf-schema/)
-- [OWL](https://www.w3.org/OWL/)
-- [SHACL](https://www.w3.org/TR/shacl/)
-- [SPARQL](https://www.w3.org/TR/sparql11-query/)
-
----
-
-## Research groups and communities
-
-- [Information Systems in the Built Environment (ISBE)](https://isbe.bwk.tue.nl/) - Research group at Eindhoven University of Technology (TU/e), The Netherlands.
-
----
-
-## Conferences and workshops
-
-Known conferences and workshops related to digital construction, BIM, digital twins, AI, and semantic technologies for the built environment.
-
-### International
-
-- [CIB W78 - Information Technology in Construction](https://www.cibw78.org/) - Leading conference on digital technologies for construction.
-- [EC3 - European Conference on Computing in Construction](https://ec-3.org/) - Major European conference on computational approaches in construction.
-- [ASCE International Conference on Computing in Civil Engineering](https://www.asce.org/cce) - Conference on computing applications in civil engineering.
-- [eCAADe - Education and Research in Computer Aided Architectural Design in Europe](https://ecaade.org/) - Conference on computational design and digital architecture.
-- [CAAD Futures](https://caadfutures.org/) - International conference on computer-aided architectural design.
-- [ISARC - International Symposium on Automation and Robotics in Construction](https://www.isarc.org/) - Flagship conference on robotics in construction.
-- [IEEE CASE](https://ieee-ras.org/conferences-workshops/fully-sponsored/case) - IEEE conference on automation science and engineering.
-- [LDAC - Linked Data in Architecture and Construction](http://www.linkedbuildingdata.net/ldac/) - Workshop on semantic web technologies in the built environment.
-- [SEMANTiCS Conference](https://2024-eu.semantics.cc/) - Conference on semantic technologies and knowledge graphs.
-- [TwinArch - Digital Twin Architecture Workshop](https://www.iese.fraunhofer.de/en/twinarch.html) - Workshop on digital twin architectures.
-- [ACM BuildSys](https://buildsys.acm.org/) - Conference on systems for smart buildings and cities.
-- [IEEE Smart Cities](https://smartcities.ieee.org/) - Conference series on smart city technologies.
-- [TUM GNI Symposium](https://events.gni.tum.de/ai-symposium-2026/) - Symposium on digital transformation in the built environment, organized by TUM.
-- [ICSA - International Conference on Structures and Architecture](https://www.linkedin.com/company/icsa-2027-milano/)
-
-### National and regional
-
-- [UK BIM Conference](https://www.ukbimconference.com/) - Annual conference on BIM in the UK.
-- [BIM World](https://www.bim-world.com/) - Global conference with regional editions in Europe, Asia, and the Americas.
-- [AIA Conference on Architecture](https://conferenceonarchitecture.com/) - Major US conference on architecture and design, including digital technologies.
-- [BILT Conference](https://bilt-conference.com/) - Conference on BIM and digital construction with global editions.
-- [BIM Forum](https://bimforum.org/) - Annual conference on BIM in the US.
-- [BIM Nordic](https://bimnordic.com/) - Conference on BIM in the Nordic countries.
-- [BIM Summit](https://bimsummit.es/) - Annual conference on BIM in Spain.
-- [Digital Construction Week](https://www.digitalconstructionweek.com/) - UK-based conference on digital construction technologies.
-- [Smart Building Conference](https://www.smartbuildingconference.com/) - Conference on smart building technologies in the US.
-- [Smart Cities Expo World Congress](https://www.smartcityexpo.com/) - Global conference on smart city technologies.
-- [4TU / 14UAS Research Day on Digitalisation of the Built Environment](https://www.4tu.nl/agenda/5th-research-day-on-digitalization/) - Workshop on digitalisation in the built environment, organized by 4TU and 14UAS in the Netherlands.
-
----
-
-## Initiatives and societies
-
-- [BIMe](https://bimexcellence.org/) - BIM Excellence Initiative.
-- [CIB - International Council for Research and Innovation in Building and Construction](https://www.cibworld.org/) - Global network of researchers and practitioners in the built environment.
-- [EC3 Modelling & Standards Committee](https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - A permanent technical committee of the EC3.
-- [buildingSMART International](https://www.buildingsmart.org/) - International organization developing open BIM standards.
-- [Digital Twin Consortium](https://www.digitaltwinconsortium.org/) - Global ecosystem for digital twin technologies.
-
----
-
 ## Datasets and benchmarks
 
 ### BIM and IFC
@@ -491,6 +417,80 @@ Known conferences and workshops related to digital construction, BIM, digital tw
 - [CityPulse Dataset](https://iot.ee.surrey.ac.uk:8080/datasets.html) - Smart city IoT data streams.
 - [Urban Observatory Newcastle](https://urbanobservatory.ac.uk/) - Large urban sensor dataset.
 - [NYC Open Data](https://opendata.cityofnewyork.us/) - Large collection of urban infrastructure datasets.
+
+---
+
+## Standards and specifications
+
+### Standards
+
+- [BIM Standards Landscape Explorer](https://ec-3.org/BIM-Standards-Landscape-Explorer.html)
+- [buildingSMART standards](https://www.buildingsmart.org/standards/)
+- [IFC](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/)
+- [OGC standards](https://www.ogc.org/standards) - Including CityGML, IndoorGML, and 3D Tiles.
+- [IFC4.x-development](https://github.com/buildingSMART/IFC4.x-development) - Repository tracking updates to the IFC4.3 specification.
+- [IFC5-development](https://github.com/buildingSMART/IFC5-development) - Development repository for the next generation of Industry Foundation Classes.
+
+### Semantic web standards
+
+- [RDF](https://www.w3.org/RDF/)
+- [RDFS](https://www.w3.org/TR/rdf-schema/)
+- [OWL](https://www.w3.org/OWL/)
+- [SHACL](https://www.w3.org/TR/shacl/)
+- [SPARQL](https://www.w3.org/TR/sparql11-query/)
+
+---
+
+## Research groups and communities
+
+- [Information Systems in the Built Environment (ISBE)](https://isbe.bwk.tue.nl/) - Research group at Eindhoven University of Technology (TU/e), The Netherlands.
+
+---
+
+## Conferences and workshops
+
+Known conferences and workshops related to digital construction, BIM, digital twins, AI, and semantic technologies for the built environment.
+
+### International
+
+- [CIB W78 - Information Technology in Construction](https://www.cibw78.org/) - Leading conference on digital technologies for construction.
+- [EC3 - European Conference on Computing in Construction](https://ec-3.org/) - Major European conference on computational approaches in construction.
+- [ASCE International Conference on Computing in Civil Engineering](https://www.asce.org/cce) - Conference on computing applications in civil engineering.
+- [eCAADe - Education and Research in Computer Aided Architectural Design in Europe](https://ecaade.org/) - Conference on computational design and digital architecture.
+- [CAAD Futures](https://caadfutures.org/) - International conference on computer-aided architectural design.
+- [ISARC - International Symposium on Automation and Robotics in Construction](https://www.isarc.org/) - Flagship conference on robotics in construction.
+- [IEEE CASE](https://ieee-ras.org/conferences-workshops/fully-sponsored/case) - IEEE conference on automation science and engineering.
+- [LDAC - Linked Data in Architecture and Construction](http://www.linkedbuildingdata.net/ldac/) - Workshop on semantic web technologies in the built environment.
+- [SEMANTiCS Conference](https://2024-eu.semantics.cc/) - Conference on semantic technologies and knowledge graphs.
+- [TwinArch - Digital Twin Architecture Workshop](https://www.iese.fraunhofer.de/en/twinarch.html) - Workshop on digital twin architectures.
+- [ACM BuildSys](https://buildsys.acm.org/) - Conference on systems for smart buildings and cities.
+- [IEEE Smart Cities](https://smartcities.ieee.org/) - Conference series on smart city technologies.
+- [TUM GNI Symposium](https://events.gni.tum.de/ai-symposium-2026/) - Symposium on digital transformation in the built environment, organized by TUM.
+- [ICSA - International Conference on Structures and Architecture](https://www.linkedin.com/company/icsa-2027-milano/)
+
+### National and regional
+
+- [UK BIM Conference](https://www.ukbimconference.com/) - Annual conference on BIM in the UK.
+- [BIM World](https://www.bim-world.com/) - Global conference with regional editions in Europe, Asia, and the Americas.
+- [AIA Conference on Architecture](https://conferenceonarchitecture.com/) - Major US conference on architecture and design, including digital technologies.
+- [BILT Conference](https://bilt-conference.com/) - Conference on BIM and digital construction with global editions.
+- [BIM Forum](https://bimforum.org/) - Annual conference on BIM in the US.
+- [BIM Nordic](https://bimnordic.com/) - Conference on BIM in the Nordic countries.
+- [BIM Summit](https://bimsummit.es/) - Annual conference on BIM in Spain.
+- [Digital Construction Week](https://www.digitalconstructionweek.com/) - UK-based conference on digital construction technologies.
+- [Smart Building Conference](https://www.smartbuildingconference.com/) - Conference on smart building technologies in the US.
+- [Smart Cities Expo World Congress](https://www.smartcityexpo.com/) - Global conference on smart city technologies.
+- [4TU / 14UAS Research Day on Digitalisation of the Built Environment](https://www.4tu.nl/agenda/5th-research-day-on-digitalization/) - Workshop on digitalisation in the built environment, organized by 4TU and 14UAS in the Netherlands.
+
+---
+
+## Initiatives and societies
+
+- [BIMe](https://bimexcellence.org/) - BIM Excellence Initiative.
+- [CIB - International Council for Research and Innovation in Building and Construction](https://www.cibworld.org/) - Global network of researchers and practitioners in the built environment.
+- [EC3 Modelling & Standards Committee](https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - A permanent technical committee of the EC3.
+- [buildingSMART International](https://www.buildingsmart.org/) - International organization developing open BIM standards.
+- [Digital Twin Consortium](https://www.digitaltwinconsortium.org/) - Global ecosystem for digital twin technologies.
 
 ---
 

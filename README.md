@@ -1,10 +1,10 @@
 # Awesome Digital Built Environment [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of tools, standards, datasets,  platforms, and communities that are shaping the digital and intelligemt transformation of the built environment.
+A curated list of tools, standards, datasets, platforms, and communities that are shaping the digital and intelligent transformation of the built environment.
 
 Topics include (and are not limited to): BIM and openBIM, digital twins, ontologies and knowledge graphs, robotics and automation, smart cities, simulation and analytics, AI for construction, and data standards and interoperability. The goal is to provide a technical reference map of the digital built environment ecosystem in line with the Awesome list guidelines. 
 
-To add something to the list, please submit a pull request or open an issue. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+To add something to the list, please submit a pull request or open an issue.
 
 ## Contents
 
@@ -35,13 +35,13 @@ To add something to the list, please submit a pull request or open an issue. See
   - [AI benchmarks and datasets](#ai-benchmarks-and-datasets)
   - [Foundation models for the built environment](#foundation-models-for-the-built-environment)
   - [Neuro-symbolic AI](#neuro-symbolic-ai)
-  - [NLP for construction and built environment](#nlp-for-construction-and-built-environment)
-  - [AI bias and fairness in construction](#ai-bias-and-fairness-in-construction)
+  - [NLP for construction and the built environment](#nlp-for-construction-and-the-built-environment)
   - [RAG for AEC documents](#rag-for-aec-documents)
   - [Structural health monitoring and anomaly detection](#structural-health-monitoring-and-anomaly-detection)
   - [Time-series forecasting for building energy](#time-series-forecasting-for-building-energy)
   - [Multi-agent systems for construction](#multi-agent-systems-for-construction)
   - [Synthetic data generation](#synthetic-data-generation)
+  - [AI bias and fairness in construction](#ai-bias-and-fairness-in-construction)
 - [Datasets and benchmarks](#datasets-and-benchmarks)
   - [BIM and IFC](#bim-and-ifc)
   - [City models and geospatial](#city-models-and-geospatial)
@@ -305,6 +305,7 @@ To add something to the list, please submit a pull request or open an issue. See
 ## Data spaces
 
 ### Frameworks and architectures
+
 - [International Data Spaces (IDS)](https://internationaldataspaces.org/) - Reference architecture for secure data exchange between organisations.
 - [GAIA-X](https://gaia-x.eu/) - European initiative for federated cloud and data infrastructure.
 - [Eclipse Dataspace Components](https://github.com/eclipse-edc) - Open-source implementation of the IDS architecture.
@@ -450,19 +451,50 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 
 ### Foundation models for the built environment
 
-_This section is a work in progress. Contributions welcome._
+#### Built-environment and AEC models
+
+- [AECBench](https://github.com/ArchiAI-LAB/AECBench) - Open benchmark for evaluating large language models across architecture, engineering, and construction knowledge, reasoning, calculation, and professional application tasks.
+- [AEC-Bench](https://github.com/nomic-ai/aec-bench) - Multimodal benchmark for evaluating agentic AI systems on real-world architecture, engineering, and construction tasks, including drawing understanding, cross-sheet reasoning, and project-level coordination.
+- [LLMs for CAD Survey and Taxonomy](https://github.com/lichengzhanguom/LLMs-CAD-Survey-Taxonomy) - Collection of research on large language models for CAD generation, editing, understanding, and engineering-design workflows.
+- [TRELLIS](https://github.com/microsoft/TRELLIS) - Large-scale pretrained model for generating and editing structured 3D assets from text and images.
+
+#### Urban and geospatial foundation models
+
+- [Awesome Location Intelligence](https://github.com/CityMind-Lab/Awesome-Location-Intelligence) - Collection of urban and geospatial representation-learning models, including UrbanCLIP, CityFM, ReFound, and urban vision-language models.
 
 ### Neuro-symbolic AI
 
-_This section is a work in progress. Contributions welcome._
+#### Built-environment applications
 
-### NLP for construction and built environment
+- [IDPO](https://github.com/RUB-Informatik-im-Bauwesen/idpo) - Information Delivery Processes Ontology for formally representing information exchanges and delivery processes in construction.
+- [LOIN Ontology](https://github.com/RUB-Informatik-im-Bauwesen/loin-ontology) - Formal representation of Levels of Information Need, aligned with EN 17412-1 and buildingSMART IDS.
+- [IoC Process Ontology](https://github.com/Internet-of-Construction/IoC-Process-Ontology) - Ontological representation of construction processes and associated process data.
+- [Digital Buildings](https://github.com/google/digitalbuildings) - Ontology and software tools for representing building systems, equipment, relationships, and telemetry.
 
-_This section is a work in progress. Contributions welcome._
+#### Supporting semantic web and neuro-symbolic frameworks
 
-### AI bias and fairness in construction
+- [SymbolicAI](https://github.com/ExtensityAI/symbolicai) - Framework for combining large language models with symbolic expressions, constraints, computation, and structured reasoning.
+- [DeepProbLog](https://github.com/ML-KULeuven/deepproblog) - Neuro-symbolic framework combining neural networks with probabilistic logic programming.
+- [Logic Tensor Networks](https://github.com/logictensornetworks/logictensornetworks) - Framework integrating neural learning with first-order logical constraints.
+- [Neural Theorem Provers](https://github.com/uclnlp/ntp) - Differentiable reasoning system for learning and inference over knowledge bases.
+- [PyReason](https://github.com/lab-v2/pyreason) - Explainable temporal and graph-based symbolic reasoning framework.
+- [SHACL](https://github.com/w3c/data-shapes) - W3C resources for validating RDF knowledge graphs against formal constraints.
+- [pySHACL](https://github.com/RDFLib/pySHACL) - Python validator for applying SHACL constraints and rules to RDF knowledge graphs.
 
-_This section is a work in progress. Contributions welcome._
+### NLP for construction and the built environment
+
+#### Language models and evaluation
+
+- [DesignQA](https://github.com/AutodeskAILab/DesignQA) - Multimodal benchmark for evaluating machine understanding of engineering drawings and technical documentation.
+
+#### Supporting NLP frameworks
+
+- [spaCy](https://github.com/explosion/spaCy) - Industrial NLP framework for named-entity recognition, text classification, dependency parsing, and custom domain pipelines.
+- [Flair](https://github.com/flairNLP/flair) - NLP framework supporting named-entity recognition, classification, relation extraction, and contextual embeddings.
+- [Haystack](https://github.com/deepset-ai/haystack) - Framework for retrieval-augmented generation, document search, question answering, and agent pipelines.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data and retrieval framework for connecting LLMs to documents, databases, knowledge graphs, and structured project information.
+- [LangChain](https://github.com/langchain-ai/langchain) - Framework for developing LLM applications involving retrieval, tools, structured outputs, and agents.
+- [GraphRAG](https://github.com/microsoft/graphrag) - Graph-based retrieval framework for extracting entities, relationships, communities, and grounded answers from document collections.
 
 ### RAG for AEC documents
 
@@ -484,7 +516,45 @@ _This section is a work in progress. Contributions welcome._
 
 ### Synthetic data generation
 
-_This section is a work in progress. Contributions welcome._
+#### Built-environment synthetic datasets
+
+- [ResBIM](https://github.com/RogerLiang0725/ResBIM) - Synthetic dataset containing more than 1,000 paired parametric BIM models and annotated 2D floor plans for BIM automation and 2D-to-BIM reconstruction.
+- [InteriorNet](https://github.com/InteriorNet/InteriorNet) - Large synthetic indoor dataset for scene understanding, localisation, depth estimation, and visual navigation.
+- [Hypersim](https://github.com/apple/ml-hypersim) - Photorealistic synthetic indoor-scene dataset with geometry, depth, surface normals, semantic labels, and lighting information.
+- [SceneNet RGB-D](https://github.com/jmccormac/SceneNetRGB-D) - Synthetic RGB-D dataset for indoor semantic segmentation and scene understanding.
+- [Synthinel-1](https://github.com/tum-lmf/Synthinel-1) - Synthetic overhead imagery dataset for building segmentation and remote-sensing research.
+- [SYNTHIA](https://github.com/AndresCarranza/Extended-SYNTHIA) - Synthetic urban imagery dataset with pixel-level semantic annotations.
+
+#### Synthetic-data generation tools
+
+- [BlenderProc](https://github.com/DLR-RM/BlenderProc) - Procedural Blender pipeline for generating photorealistic, automatically annotated computer-vision training data.
+- [BlenderSynth](https://github.com/OllieBoyne/BlenderSynth) - Python framework for generating synthetic image datasets and labels through Blender.
+- [Kubric](https://github.com/google-research/kubric) - Scalable pipeline for generating synthetic image and video datasets with object, depth, optical-flow, and segmentation annotations.
+- [Omniverse Replicator](https://github.com/NVIDIA-Omniverse/Replicator) - Synthetic-data generation framework for physically based simulation, sensor data, robotics, and computer vision.
+- [Unity Perception](https://github.com/Unity-Technologies/com.unity.perception) - Tools for creating labelled synthetic image datasets using configurable Unity environments.
+- [CARLA](https://github.com/carla-simulator/carla) - Open urban-driving simulator capable of producing synthetic sensor, traffic, pedestrian, building, and street-scene data.
+- [AirSim](https://github.com/microsoft/AirSim) - Simulation environment for drones, vehicles, cameras, LiDAR, and autonomous-system training.
+- [HELIOS++](https://github.com/3dgeo-heidelberg/helios) - Virtual laser-scanning simulator for producing synthetic airborne, mobile, terrestrial, and indoor point clouds.
+- [BlenSor](https://github.com/jg-rosenfeld/blensor) - Blender-based sensor simulator for generating synthetic LiDAR, depth-camera, and point-cloud data.
+- [Salingo Virtual 3D Scanner](https://github.com/salingo/virtual-3d-scanner) - Virtual scanner for producing synthetic RGB-D observations and point clouds from 3D models.
+- [SynthCity](https://github.com/vanderschaarlab/synthcity) - General synthetic-data generation framework for tabular and sequential datasets, potentially applicable to building energy, asset, and operational data.
+
+### AI bias and fairness in construction
+
+Research, datasets, auditing tools, and methods for identifying and mitigating unfair or systematically distorted AI outcomes affecting construction workers, professionals, organisations, communities, building occupants, and urban populations. For built-environment-specific resources relevant to geographic and representation bias, see Awesome Urban Foundation Models and Awesome Location Intelligence under Foundation models, and Microsoft Global ML Building Footprints and SpaceNet under AI benchmarks and datasets, above.
+
+#### Fairness auditing and mitigation tools
+
+- [Google Open Buildings Detection](https://github.com/google-research/google-research/tree/master/building_detection) - Building-detection methods and resources that can support analysis of regional performance disparities in satellite-derived building datasets.
+- [AI Fairness 360](https://github.com/Trusted-AI/AIF360) - Toolkit containing fairness metrics, bias-detection methods, datasets, and mitigation algorithms.
+- [Fairlearn](https://github.com/fairlearn/fairlearn) - Python toolkit for evaluating and mitigating unfair outcomes in machine-learning systems.
+- [Aequitas](https://github.com/dssg/aequitas) - Bias-audit toolkit for examining disparities between demographic and population groups.
+- [FairBench](https://github.com/mever-team/FairBench) - Fairness-evaluation framework providing a large collection of metrics and structured audit reports.
+- [Holistic AI](https://github.com/holistic-ai/holisticai) - Toolkit for evaluating bias, fairness, explainability, robustness, security, and model efficacy.
+- [What-If Tool](https://github.com/PAIR-code/what-if-tool) - Interactive tool for inspecting model behaviour, subgroup performance, counterfactuals, and fairness metrics.
+- [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) - Collection of tools for error analysis, interpretability, fairness assessment, causal analysis, and responsible model development.
+- [Folktables](https://github.com/socialfoundations/folktables) - Benchmark datasets derived from US Census data for evaluating fairness and distribution shifts across demographic and geographical groups.
+- [LLM Fairness](https://github.com/junxu-ai/LLM_fairness) - Collection of datasets, methods, papers, and evaluation resources for studying bias and fairness in large language models.
 
 ---
 
@@ -648,7 +718,6 @@ Known conferences and workshops related to digital construction, BIM, digital tw
 - [buildingSMART International](https://www.buildingsmart.org/) - International organization developing open BIM standards.
 - [Digital Twin Consortium](https://www.digitaltwinconsortium.org/) - Global ecosystem for digital twin technologies.
 - [Linked Building Data Community Group](https://github.com/w3c-lbd-cg/lbd) - W3C Community Group site and resources for linked building data.
-
 
 ---
 

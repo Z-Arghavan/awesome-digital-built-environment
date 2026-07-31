@@ -268,12 +268,7 @@ To add something to the list, please submit a pull request or open an issue.
 
 - [BE-OLS](https://cyberbuildlab.github.io/BE-OLS/) - Built Environment Ontology Lookup Service.
 - [LOV](https://lov.linkeddata.es/dataset/lov/) - Linked Open Vocabularies.
-- [Digital Buildings](https://github.com/google/digitalbuildings) - Ontology and SDK used by Google internally to manage its own buildings.
 - [Linked Building Data Community Group](https://github.com/w3c-lbd-cg/lbd) - W3C Community Group site and resources for linked building data.
-- [IDPO](https://github.com/RUB-Informatik-im-Bauwesen/idpo) - Information Delivery Processes Ontology for modelling information delivery in construction.
-- [LOIN Ontology](https://github.com/RUB-Informatik-im-Bauwesen/loin-ontology) - Ontology for Levels of Information Need per EN 17412-1, aligned with buildingSMART IDS.
-- [IoC Process Ontology](https://github.com/Internet-of-Construction/IoC-Process-Ontology) - Top-level ontology for describing construction processes and process data.
-- [BCOM](https://github.com/RUB-Informatik-im-Bauwesen/bcom) - Building Concrete Monitoring Ontology for capturing concrete work and curing data.
 
 ---
 

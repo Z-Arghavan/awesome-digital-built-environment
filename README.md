@@ -25,11 +25,12 @@ To add something to the list, please submit a pull request or open an issue.
 - [Graph databases and data infrastructure](#graph-databases-and-data-infrastructure)
 - [Data spaces](#data-spaces)
 - [Robotics and AI for construction](#robotics-and-ai-for-construction)
+- [Artificial intelligence and machine learning](#artificial-intelligence-and-machine-learning)
+- [Datasets and benchmarks](#datasets-and-benchmarks)
 - [Standards and specifications](#standards-and-specifications)
 - [Research groups and communities](#research-groups-and-communities)
 - [Conferences and workshops](#conferences-and-workshops)
 - [Initiatives and societies](#initiatives-and-societies)
-- [Datasets and benchmarks](#datasets-and-benchmarks)
 - [Learning resources](#learning-resources)
 
 ---
@@ -57,6 +58,12 @@ To add something to the list, please submit a pull request or open an issue.
 - [Share](https://github.com/bldrs-ai/Share) - Browser-based BIM and CAD viewer and collaboration platform supporting IFC, STEP, STL, OBJ, and GLTF.
 - [BIMsurfer](https://github.com/opensourceBIM/BIMsurfer) - WebGL viewer for IFC models.
 - [bim-viewer](https://github.com/thingraph/bim-viewer) - WebGL-based BIM viewer built on three.js and Vue, viewing glTF, IFC, OBJ, DAE, and STL models.
+- [GitHubDragonFly 3D viewers](https://github.com/GitHubDragonFly/GitHubDragonFly.github.io) - Collection of browser-based 3D viewers covering many formats including BIM and IFC.
+- [Astral3D](https://github.com/mlt131220/Astral3D) - Open-source 3D engine and editor based on Vue3 and Three.js, with BIM lightweighting and CAD preview.
+- [gemini-viewer-examples](https://github.com/pattern-x/gemini-viewer-examples) - Examples for a WebGL-based BIM viewer built on three.js, supporting DWG, glTF, OBJ, and IFC.
+- [bimvie.ws](https://github.com/opensourceBIM/bimvie.ws) - JavaScript client for BIM using open standards including IFC, BCF, and BIMSie.
+- [wl-bim-viewer](https://github.com/hql7/wl-bim-viewer) - BIM 3D model preview plugin for the Vue framework.
+- [bim-ootb](https://github.com/red1oon/bim-ootb) - Browser-native IFC viewer paired with a local-first ERP kernel.
 
 ### Parsers and SDKs
 
@@ -68,12 +75,21 @@ To add something to the list, please submit a pull request or open an issue.
 - [GeometryGym](https://github.com/jmirtsch/GeometryGym) - C# library for generating and parsing IFC and other openBIM standards.
 - [xeokit-sdk](https://github.com/xeokit/xeokit-sdk) - Open-source WebGL-based 3D BIM/IFC viewer SDK for AEC applications, with real-world coordinates and double precision.
 - [ifc-lite](https://github.com/LTplus-AG/ifc-lite) - Parse, view, query, edit, and export IFC, IDS, BCF, and point clouds in the browser, server, or desktop.
+- [Microsoft IFC SDK](https://github.com/microsoft/ifc) - Microsoft's SDK for the IFC specification.
+- [brepjs](https://github.com/andymai/brepjs) - Web CAD library with exact B-Rep geometry.
+- [conway](https://github.com/bldrs-ai/conway) - High-performance IFC and STEP engine for web-based CAD applications.
+- [XbimEssentials](https://github.com/xBimTeam/XbimEssentials) - .NET library for working with IFC data, the core component of the xBIM Toolkit.
+- [XbimGeometry](https://github.com/xBimTeam/XbimGeometry) - Geometry engine computing 3D geometry for xBIM models.
+- [specklepy](https://github.com/specklesystems/specklepy) - Python SDK for Speckle, an open-source data interoperability platform for AEC.
+- [openskp](https://github.com/iamahsanmehmood/openskp) - Open-source parser for SketchUp (.skp) binary files.
 
 ### Validators and quality checking
 
 - [buildingSMART Validation Service](https://validate.buildingsmart.org/) - Official online IFC validator by buildingSMART.
 - [IfcDoc](https://github.com/buildingSMART/IfcDoc) - Tool for documenting and validating IFC schemas; used to author the official IFC specification.
 - [IDS (Information Delivery Specification)](https://github.com/buildingSMART/IDS) - BuildingSMART standard for defining and checking model requirements; supported by several validators above.
+- [COREY](https://github.com/JHJHJHJH/COREY) - Visually review IFC model data, configure clauses and rules, and validate.
+- [ifc_checker](https://github.com/i-savelev/ifc_checker) - Simple tool for checking IFC models.
 
 ### Converters and pipelines
 
@@ -82,6 +98,8 @@ To add something to the list, please submit a pull request or open an issue.
 - [IFC to CityGML](https://github.com/tum-gis/ifc2citygml) - Converts IFC building models to CityGML format.
 - [ifc-pipeline](https://github.com/AECgeeks/ifc-pipeline) - Processing queue and front-end for visualizing BIM models, built with IfcOpenShell, Docker Compose, and Flask.
 - [xeokit-convert](https://github.com/xeokit/xeokit-convert) - Converts various AEC model formats for efficient viewing in the browser with xeokit.
+- [cad2data](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN) - Automated conversion workflow for CAD files (RVT, IFC, DWG, DGN) using command-line converters.
+- [blendit](https://github.com/lewismconte/blendit) - One-click Revit to Blender renderer.
 
 ---
 
@@ -94,6 +112,10 @@ To add something to the list, please submit a pull request or open an issue.
 - [FreeCAD BIM Workbench](https://wiki.freecad.org/BIM_Workbench) - Open BIM modelling tools for FreeCAD.
 - [Dynamo](https://github.com/DynamoDS/Dynamo) - Open-source graphical programming environment for computational design and automation.
 - [Elements](https://github.com/hypar-io/Elements) - Lightweight, code-first BIM library for generating building geometry programmatically.
+- [DynamoRevit](https://github.com/DynamoDS/DynamoRevit) - Dynamo libraries specifically for Revit.
+- [Revit_Toolkit](https://github.com/BHoM/Revit_Toolkit) - Tools enabling exchange of information between BHoM and Revit.
+- [Grevit](https://github.com/grevit-dev/Grevit) - Build BIM models in Grasshopper or SketchUp.
+- [3dio-js](https://github.com/archilogic-com/3dio-js) - JavaScript toolkit for interior design applications.
 
 ---
 
@@ -118,6 +140,11 @@ To add something to the list, please submit a pull request or open an issue.
 - [Dassault CATIA](https://www.3ds.com/products-services/catia/) - CAD and BIM platform for complex projects.
 - [BIMserver](https://github.com/opensourceBIM/BIMserver) - Open-source BIM server platform for managing and querying IFC models.
 - [EF-Tools](https://github.com/ErikFrits/EF-Tools) - Free collection of pyRevit-based tools for automating repetitive tasks in Revit.
+- [FreeCAD](https://github.com/FreeCAD/FreeCAD) - Free and open-source multi-platform 3D parametric modeler, base platform for the FreeCAD BIM Workbench.
+- [massing](https://github.com/ibuilder/massing) - Open, self-hosted, IFC-native AEC platform combining a web BIM viewer with a GC portal.
+- [B45 Labs Coordination](https://github.com/B45Labs/B45Labs_Coordination) - Revit add-in for coordination, auditing, and QA/QC workflows.
+- [multiconn_archicad](https://github.com/SzamosiMate/multiconn_archicad) - Python toolkit for multi-instance Archicad automation via its JSON API and Tapir Add-On.
+- [CadAddinManager](https://github.com/chuongmep/CadAddinManager) - Updates .NET assemblies without restarting AutoCAD or Civil 3D during development.
 
 ---
 
@@ -130,6 +157,19 @@ To add something to the list, please submit a pull request or open an issue.
 - [Eclipse Ditto](https://www.eclipse.org/ditto/) - Open-source digital twin framework.
 - [Asset Administration Shell](https://industrialdigitaltwin.org/) - Digital twin standard for Industry 4.0.
 - [iTwin.js](https://github.com/iTwin/itwinjs-core) - Open-source library from Bentley for building infrastructure digital twin applications.
+
+### Asset Administration Shell (AAS) tools
+
+- [AASX Package Explorer](https://github.com/admin-shell-io/aasx-package-explorer) - C#-based viewer and editor for the Asset Administration Shell.
+- [BaSyx Python SDK](https://github.com/eclipse-basyx/basyx-python-sdk) - Eclipse BaSyx implementation of the Asset Administration Shell for Industry 4.0 systems.
+- [FA3ST Service](https://github.com/FraunhoferIOSB/FAAAST-Service) - Fraunhofer Advanced Asset Administration Shell Tools for digital twins.
+- [openAAS](https://github.com/rwth-iat/openAAS) - Development repository for an open Asset Administration Shell implementation.
+- [BaSyx AAS Web UI](https://github.com/eclipse-basyx/basyx-aas-web-ui) - Web-based interface for managing and interacting with Asset Administration Shells.
+- [AAS Manager](https://github.com/rwth-iat/aas_manager) - Editor and viewer for Asset Administration Shells.
+- [Twin4Build](https://github.com/JBjoernskov/Twin4Build) - Dynamic building simulation using differentiable data-driven models integrated with semantic models.
+- [AASPortal](https://github.com/eclipse-aasportal/AASPortal) - Node.js-based web portal for visualizing and managing Asset Administration Shells.
+- [aas-core3.0-csharp](https://github.com/aas-core-works/aas-core3.0-csharp) - Manipulate, verify, and serialize Asset Administration Shells in C#.
+- [AAS Hub](https://github.com/aas-hub-org/aashub) - Web application for accessing and sharing Asset Administration Shells.
 
 ---
 
@@ -146,6 +186,9 @@ To add something to the list, please submit a pull request or open an issue.
 - [ANSYS](https://www.ansys.com/) - General-purpose engineering simulation platform. Not open-source.
 - [adapy](https://github.com/Krande/adapy) - Python library for structural analysis and design.
 - [bim2sim](https://github.com/BIM2SIM/bim2sim) - Python tool for creating simulation models across different domains based on BIM IFC models.
+- [awatif](https://github.com/madil4/awatif) - AI-native platform for structural engineering automation.
+- [VOSTOK](https://github.com/3dgeo-heidelberg/vostok) - Voxel Octree Solar Toolkit for computing detailed incoming solar radiation models.
+- [OpenWind-AU](https://github.com/Elandu/OpenWind-AU) - Preliminary wind site terrain and topographic analysis for buildings using public geospatial datasets.
 
 ---
 
@@ -159,6 +202,12 @@ To add something to the list, please submit a pull request or open an issue.
 - [lidR](https://github.com/r-lidar/lidR) - R package for airborne LiDAR data processing and analysis.
 - [OPALS](https://opals.geo.tuwien.ac.at/) - Software for processing and analysing airborne laser scanning data; developed at TU Wien.
 - [Cloud2BIM](https://github.com/VaclavNezerka/Cloud2BIM) - Codes for automatic point-cloud-to-BIM conversion.
+- [pystruct3d](https://github.com/humantecheu/pystruct3d) - Bounding box fitting and reconstruction library for scan-to-BIM workflows.
+- [scan_to_model_pipeline](https://github.com/mac999/scan_to_model_pipeline) - Open-source pipeline that generates mesh models from point cloud scans.
+- [ReUseX](https://github.com/pfmephisto/ReUseX) - Tool for processing 3D point cloud scans of building interiors to support reuse workflows.
+- [pyhelios](https://github.com/chenzhaiyu/pyhelios) - Configurations of Helios++ for point cloud simulation on urban buildings.
+- [SLAM2REF](https://github.com/MigVega/SLAM2REF) - Aligns and corrects LiDAR-based SLAM session data with a reference map or another session.
+- [IGN LiDAR HD](https://github.com/imagodata/IGN_LIDAR_HD_DATASET) - Python library for processing IGN LiDAR HD data into machine-learning-ready datasets for buildings.
 
 ---
 
@@ -177,6 +226,30 @@ To add something to the list, please submit a pull request or open an issue.
 - [citygml4j](https://github.com/citygml4j/citygml4j) - Open-source Java library for reading, writing, and processing CityGML datasets.
 - [py3dtilers](https://github.com/Oslandia/py3dtilers) - Tilers accepting OBJ, 3DCityDB, GeoJSON, and IFC input to produce 3D Tiles tilesets.
 - [mago-3d-tiler](https://github.com/Gaia3D/mago-3d-tiler) - Java-based 3D Tiles generator.
+- [3D Tiles Renderer JS](https://github.com/NASA-AMMOS/3DTilesRendererJS) - Renderer for 3D Tiles in JavaScript using three.js, Babylon.js, or react-three-fiber.
+- [3dtiles](https://github.com/fanvanzh/3dtiles) - Fast converter for generating 3D Tiles.
+- [geo-three](https://github.com/tentone/geo-three) - Tile-based geographic world map visualization library for three.js.
+- [loaders.gl](https://github.com/visgl/loaders.gl) - Loaders for large-scale geospatial and 3D data visualization.
+- [objTo3d-tiles](https://github.com/PrincessGod/objTo3d-tiles) - Converts OBJ model files to 3D Tiles.
+- [WorldWind Java](https://github.com/NASAWorldWind/WorldWindJava) - NASA SDK for building cross-platform 3D geospatial desktop applications.
+- [OSM2World](https://github.com/tordanik/OSM2World) - Converts OpenStreetMap data into three-dimensional models.
+- [3dfier](https://github.com/tudelft3d/3dfier) - Open-source tool for creating 3D city models from 2D GIS data, developed at TU Delft.
+- [pg2b3dm](https://github.com/Geodan/pg2b3dm) - Creates 3D Tiles from PostGIS geometries.
+- [3D Tiles Validator](https://github.com/CesiumGS/3d-tiles-validator) - Validator for the 3D Tiles specification.
+- [3DCityDB Web Map](https://github.com/3dcitydb/3dcitydb-web-map) - Cesium-based 3D viewer and JavaScript API for the 3D City Database.
+- [3DCityDB Importer/Exporter](https://github.com/3dcitydb/importer-exporter) - Client for high-performance import and export of 3D city model data.
+- [Obj2Tiles](https://github.com/OpenDroneMap/Obj2Tiles) - Converts OBJ files to OGC 3D Tiles with splitting and decimation.
+- [WorldWind Android](https://github.com/NASAWorldWind/WorldWindAndroid) - NASA SDK for building 3D geospatial applications on Android.
+- [Building-Regulariser](https://github.com/DPIRD-DMA/Building-Regulariser) - Python library for cleaning and regularising building footprints in geospatial data.
+- [three-geojson](https://github.com/gkjohnson/three-geojson) - Three.js shape loaders for GeoJSON and WKT formats.
+- [mapbox-3d-tiles](https://github.com/yangjs6/mapbox-3d-tiles) - Integrates three.js with Mapbox GL to render 3D Tiles, 3D Gaussian Splats, and glTF.
+- [3DGS-PLY-3DTiles-Converter](https://github.com/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter) - Converts Gaussian Splatting PLY files into 3D Tiles.
+- [open-buildings](https://github.com/opengeos/open-buildings) - Tools for working with open building footprint datasets.
+- [citygml-tools](https://github.com/citygml4j/citygml-tools) - Command-line tools for processing and converting CityGML files.
+- [ifcSQL_Tools for QGIS](https://github.com/MicheleBerlato/ifcSQL_Tools_for_QGIS) - QGIS plugin for loading and interacting with IFC data.
+- [plateau-gis-converter](https://github.com/MIERUNE/plateau-gis-converter) - Converts PLATEAU 3D city models (CityGML) of Japan into various geospatial formats.
+- [city2tabula](https://github.com/THD-Spatial-AI/city2tabula) - Extracts geometric attributes from 3D city models (CityGML/CityJSON) and classifies buildings.
+- [cityjson-rs](https://github.com/3DGI/cityjson-rs) - CityJSON support in Rust with FFI, covering types, operations, and Arrow/Parquet formats.
 
 ---
 
@@ -187,6 +260,7 @@ To add something to the list, please submit a pull request or open an issue.
 - [IndoorGML](https://www.ogc.org/standard/indoorgml/) - Indoor spatial information model.
 - [buildingSMART Data Dictionary (bSDD)](https://www.buildingsmart.org/standards/bsi-standards/bsdd/) - Standardized terminology and properties.
 - [dotbim](https://github.com/paireks/dotbim) - Minimalist, open file format for BIM.
+- [bSDD (GitHub)](https://github.com/buildingSMART/bSDD) - Source repository for the buildingSMART Data Dictionary, including documentation and examples.
 
 ---
 
@@ -195,6 +269,11 @@ To add something to the list, please submit a pull request or open an issue.
 - [BE-OLS](https://cyberbuildlab.github.io/BE-OLS/) - Built Environment Ontology Lookup Service.
 - [LOV](https://lov.linkeddata.es/dataset/lov/) - Linked Open Vocabularies.
 - [Digital Buildings](https://github.com/google/digitalbuildings) - Ontology and SDK used by Google internally to manage its own buildings.
+- [Linked Building Data Community Group](https://github.com/w3c-lbd-cg/lbd) - W3C Community Group site and resources for linked building data.
+- [IDPO](https://github.com/RUB-Informatik-im-Bauwesen/idpo) - Information Delivery Processes Ontology for modelling information delivery in construction.
+- [LOIN Ontology](https://github.com/RUB-Informatik-im-Bauwesen/loin-ontology) - Ontology for Levels of Information Need per EN 17412-1, aligned with buildingSMART IDS.
+- [IoC Process Ontology](https://github.com/Internet-of-Construction/IoC-Process-Ontology) - Top-level ontology for describing construction processes and process data.
+- [BCOM](https://github.com/RUB-Informatik-im-Bauwesen/bcom) - Building Concrete Monitoring Ontology for capturing concrete work and curing data.
 
 ---
 
@@ -204,6 +283,7 @@ To add something to the list, please submit a pull request or open an issue.
 - [Neo4j](https://neo4j.com/) - Graph database.
 - [Apache Jena](https://jena.apache.org/) - RDF framework and triple store.
 - PostgreSQL / PostGIS - Spatial and relational database, see the GIS and geospatial tools section above.
+- [TerminusDB](https://terminusdb.com/) - Distributed, collaborative database for building, versioning, and reasoning over knowledge graphs.
 
 ---
 
@@ -214,6 +294,12 @@ To add something to the list, please submit a pull request or open an issue.
 - [GAIA-X](https://gaia-x.eu/) - European initiative for federated cloud and data infrastructure.
 - [Eclipse Dataspace Components](https://github.com/eclipse-edc) - Open-source implementation of the IDS architecture.
 - [FIWARE Data Spaces](https://www.fiware.org/data-spaces/) - Open ecosystem supporting domain-specific data spaces.
+- [IDSA](https://github.com/International-Data-Spaces-Association/idsa) - Main repository of the International Data Spaces Association.
+- [Trusted Connector](https://github.com/Fraunhofer-AISEC/trusted-connector) - IoT edge platform implementing the International Data Spaces connector, based on Spring Boot.
+- [Dataspace Protocol specification](https://github.com/International-Data-Spaces-Association/ids-specification) - Specifications for interoperable data sharing between entities.
+- [TRUE Connector](https://github.com/Engineering-Research-and-Development/true-connector) - TRUsted Engineering connector for the International Data Spaces ecosystem.
+- [run-dsp](https://github.com/go-dataspace/run-dsp) - Open-source Go implementation of the IDSA dataspace protocol.
+- [data-exchange-agreements](https://github.com/decentralised-dataexchange/data-exchange-agreements) - Specifications for data disclosure agreements.
 
 ### Domain data space initiatives
 
@@ -221,6 +307,14 @@ To add something to the list, please submit a pull request or open an issue.
 - [Mobility Data Space](https://mobility-dataspace.eu/) - European data-sharing ecosystem for mobility.
 - [Catena-X](https://catena-x.net/) - Automotive data space ecosystem.
 - Built Environment Data Spaces - Emerging data-sharing infrastructures for construction and infrastructure sectors.
+- [mds-edc](https://github.com/Mobility-Data-Space/mds-edc) - Connector distribution based on Eclipse Dataspace Components, tailored for the Mobility Data Space.
+- [dataspace-ecosystem](https://github.com/AmadeusITGroup/dataspace-ecosystem) - Amadeus dataspace connector built on Eclipse EDC components.
+- [gx-credential-generator](https://github.com/SovereignCloudStack/gx-credential-generator) - Tools for creating Gaia-X credentials.
+- [gaiax-credentials-tool](https://github.com/fundacionctic/gaiax-credentials-tool) - Tool for building and signing Gaia-X credentials.
+- [federated-catalogue](https://github.com/eclipse-xfsc/federated-catalogue) - Federated catalogue for Gaia-X self-descriptions and service offerings.
+- [gx-agent](https://github.com/Sphereon-Opensource/gx-agent) - Gaia-X participant agent and compliance server interactions.
+- [ontology-management-base](https://github.com/GAIA-X4PLC-AAD/ontology-management-base) - Open, automated ontology management process for GAIA-X interoperable ecosystems.
+- [mvg-portal](https://github.com/deltaDAO/mvg-portal) - Data space portal web application built on Ocean Protocol tooling.
 
 ---
 
@@ -229,6 +323,8 @@ To add something to the list, please submit a pull request or open an issue.
 - [OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP) - Open-source construction ERP covering BOQ and PDF/CAD/BIM takeoff with AI cost matching, across 42 regional catalogues and 21 languages.
 - [DDC Skills for AI Agents in Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) - Collection of AI skills for construction covering BIM analysis, cost estimation, scheduling, and document control.
 - [bimflowsuite](https://github.com/Nnamdi-Oniya/bimflowsuite) - Cloud-native platform for generating, analyzing, and managing IFC files.
+- [FARKUS](https://github.com/modrobotics/FARKUS) - Robotic construction kit for factory automation.
+- [M3-CRETE Firmware](https://github.com/sunnyday-technologies/M3-CRETE-FIRMWARE) - Firmware configuration for the M3-CRETE 3D concrete printing platform.
 
 ---
 
@@ -251,12 +347,11 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 
 ### LLM agents and natural-language interfaces
 
-- [DDC Skills for AI Agents in Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) - Reusable AI-agent skills for BIM analysis, cost estimation, scheduling, document control, and construction automation.
 - [ArchSight AIOS](https://github.com/ArchSightLabs/archsight-aios) - Agent and workflow toolkit for BIM, IFC, document retrieval, and RAG-based construction knowledge work.
 - [Construction AI Agent](https://github.com/tayyabmughal676/Construction_AI_Agent) - Experimental agentic system for automating construction-industry workflows.
-- [OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP) - Open-source construction ERP with AI-supported quantity take-off, cost matching, BIM processing, and multilingual construction catalogues.
 - [OpenConstructionEstimate](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR) - Multilingual construction cost knowledge base designed for use with AI assistants and construction-estimation agents.
 - [Geospatial Code Agent](https://github.com/aws-samples/sample-geospatial-code-agent) - Natural-language agent that generates and executes geospatial analysis workflows over satellite and spatial data.
+- [SAP AAS MCP Server](https://github.com/SAP/aas-mcp-server) - MCP adapter exposing Asset Administration Shell APIs as Model Context Protocol tools for language models.
 
 ### Computer vision for construction
 
@@ -264,8 +359,6 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [BD3 Dataset](https://github.com/Praveenkottari/BD3-Dataset) - Annotated building-defect image dataset for training and evaluating automatic inspection models.
 - [Construction Site Image Dataset](https://github.com/pangyuteng/construction-site-image-dataset) - Annotated images of construction activities and objects for computer-vision research.
 - [OpenConstruction Datasets](https://github.com/ruoxinx/OpenConstruction-Datasets) - Collection of datasets for construction-scene understanding and visual recognition.
-- [BIMNet](https://github.com/LydJason/BIMNet) - Dataset and benchmark for reconstructing as-built BIM models from real-world point clouds.
-- [Cloud2BIM](https://github.com/VaclavNezerka/Cloud2BIM) - Automated point-cloud processing pipeline for creating BIM representations.
 - [Open3D-ML](https://github.com/isl-org/Open3D-ML) - Machine-learning extension to Open3D for semantic segmentation and object detection in 3D data.
 - [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) - Sparse tensor deep-learning library widely used for semantic segmentation and learning from large point clouds.
 - [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) - Open-source framework for 3D object detection and semantic segmentation using point clouds and multimodal data.
@@ -315,13 +408,10 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 
 ### AI benchmarks and datasets
 
-- [IfcBench](https://github.com/sylvainHellin/ifc-bench) - Benchmark for measuring the ability of AI systems to comprehend and reason about IFC models.
 - [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) - IFC component dataset for machine-learning classification and representation learning.
 - [BuildingNet](https://github.com/buildingnet/buildingnet_dataset) - Large-scale annotated building-model dataset for semantic segmentation and component understanding.
 - [ArchShapesNet](https://i3l.seoultech.ac.kr/subList/20000005729) - Dataset of BIM elements for deep-learning-based component classification.
 - [BIMNet](https://github.com/LydJason/BIMNet) - Benchmark for reconstructing BIM models from real-world point clouds.
-- [BD3 Dataset](https://github.com/Praveenkottari/BD3-Dataset) - Building-defect detection dataset containing annotated real-world images.
-- [Structured3D](https://github.com/bertjiazheng/Structured3D) - Synthetic indoor dataset containing geometry, layouts, semantics, and photorealistic renderings.
 - [SpaceNet](https://github.com/SpaceNetChallenge) - Benchmark datasets and challenges for building extraction, road detection, and geospatial machine learning.
 - [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Global building-footprint dataset produced using machine-learning models over satellite imagery.
 - [PANGAEA](https://github.com/VMarsocci/pangaea-bench) - Benchmark for evaluating geospatial foundation models across diverse Earth-observation tasks.
@@ -335,14 +425,11 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [Example IFC Files Dataset](https://www.kaggle.com/datasets/claytonmiller/example-ifc-file) - Collection of IFC models used in BIM tutorials.
 - [BIMData IFC dataset](https://github.com/bimdata/BIMData-Research-and-Development/blob/master/pages/IFC_FILES.md) - Collection of IFC models for development and testing.
 - [buildingSMART IFC Datasets](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/ifc-datasets/) - BIM model datasets in IFC format.
-- [IFCNet](https://ifcnet.e3d.rwth-aachen.de/) - BIM model dataset for machine learning.
 - [IfcBench](https://huggingface.co/datasets/sylvainHellin/ifc-bench) - Benchmark dataset for IFC-based machine learning.
 - [BuildingNet](https://buildingnet.org/) - Building model dataset for machine learning.
-- [ArchShapesNet](https://i3l.seoultech.ac.kr/subList/20000005729) - BIM elements dataset for deep learning classification of building components.
 - [3DFacilities Dataset](https://www.sciencedirect.com/science/article/pii/S0926580524002942) - Dataset of structural and MEP BIM elements for research.
 - [Open IFC Model Repository](https://github.com/opensourceBIM/TestFiles) - IFC test files for openBIM development.
 - [xBIM Toolkit Examples](https://github.com/xBimTeam/XbimSamples) - BIM models used for xBIM development and tutorials.
-- [BIM-NLQ Dataset for NLQ4BIM](https://github.com/MengtianYin/BIM-NLQI) - Natural language query dataset for BIM models.
 - [Dataset Schependomlaan](https://github.com/jakob-beetz/DataSetSchependomlaan) - IFC dataset for a residential building in the Netherlands.
 - [BIM Whale](https://github.com/andrewisen/bim-whale-ifc-samples) - Collection of IFC sample files for the BIM Whale project.
 - [GABLE](https://github.com/AICyberTeam/GABLE) - Nation-scale fine-grained 3D building model dataset for machine learning (Beijing, China).
@@ -359,7 +446,6 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [Polygon City Berlin](https://github.com/polygon-city/polygon-city-berlin-export) - CityGML dataset for Berlin, Germany.
 - [CityGML 3D City Model Repository](https://www.ogc.org/standards/citygml#datasets) - Repository of 3D city models in CityGML format.
 - [3D Tiles](https://github.com/CesiumGS/3d-tiles) - 3D geospatial data format with example datasets.
-- [Microsoft Global Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Building footprints extracted from satellite imagery.
 - [Google Open Buildings](https://sites.research.google/open-buildings/) - Large-scale building footprint dataset derived from satellite imagery.
 - [Global Building Atlas](https://arxiv.org/abs/2506.04106) - Global dataset of building footprints and heights.
 - [Urban Atlas](https://land.copernicus.eu/en/products/urban-atlas) - European urban land use, building height, and tree data.
@@ -395,8 +481,6 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 
 - [ASHRAE Great Energy Predictor Dataset](https://www.kaggle.com/c/ashrae-energy-prediction) - Dataset for building energy prediction.
 - [Building Data Genome Project](https://github.com/buds-lab/building-data-genome-project-2) - Large dataset of building energy consumption.
-- [Construction Site Image Dataset](https://github.com/pangyuteng/construction-site-image-dataset) - Annotated images of active construction sites for computer vision tasks.
-- [Open Construction Dataset](https://github.com/ruoxinx/OpenConstruction-Datasets) - Dataset for construction scene understanding.
 - [Building Change Detection Dataset](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html) - Dataset for monitoring construction and urban change from aerial imagery.
 - [SpaceNet Building Dataset](https://github.com/spacenetchallenge) - Satellite imagery dataset for building detection.
 - [Inria Aerial Image Labeling Dataset](https://project.inria.fr/aerialimagelabeling/) - Aerial imagery dataset with building annotations.

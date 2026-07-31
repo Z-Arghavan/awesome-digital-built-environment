@@ -1,10 +1,10 @@
 # Awesome Digital Built Environment [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of tools, standards, research groups, datasets, and platforms shaping the digital transformation of the built environment.
+A curated list of tools, standards, datasets,  platforms, and communities that are shaping the digital and intelligemt transformation of the built environment.
 
-Topics include (and are not limited to): BIM and openBIM, digital twins, ontologies and knowledge graphs, robotics and automation, smart cities, simulation and analytics, AI for construction, and data standards and interoperability. The goal is to provide a technical reference map of the digital built environment ecosystem.
+Topics include (and are not limited to): BIM and openBIM, digital twins, ontologies and knowledge graphs, robotics and automation, smart cities, simulation and analytics, AI for construction, and data standards and interoperability. The goal is to provide a technical reference map of the digital built environment ecosystem in line with the Awesome list guidelines. 
 
-To add something to the list, please submit a pull request or open an issue.
+To add something to the list, please submit a pull request or open an issue. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## Contents
 
@@ -26,7 +26,28 @@ To add something to the list, please submit a pull request or open an issue.
 - [Data spaces](#data-spaces)
 - [Robotics and AI for construction](#robotics-and-ai-for-construction)
 - [Artificial intelligence and machine learning](#artificial-intelligence-and-machine-learning)
+  - [AI for BIM and IFC](#ai-for-bim-and-ifc)
+  - [LLM agents and natural-language interfaces](#llm-agents-and-natural-language-interfaces)
+  - [Computer vision for construction](#computer-vision-for-construction)
+  - [Generative design and spatial intelligence](#generative-design-and-spatial-intelligence)
+  - [Building control and reinforcement learning](#building-control-and-reinforcement-learning)
+  - [GeoAI and urban intelligence](#geoai-and-urban-intelligence)
+  - [AI benchmarks and datasets](#ai-benchmarks-and-datasets)
+  - [Foundation models for the built environment](#foundation-models-for-the-built-environment)
+  - [Neuro-symbolic AI](#neuro-symbolic-ai)
+  - [NLP for construction and built environment](#nlp-for-construction-and-built-environment)
+  - [AI bias and fairness in construction](#ai-bias-and-fairness-in-construction)
+  - [RAG for AEC documents](#rag-for-aec-documents)
+  - [Structural health monitoring and anomaly detection](#structural-health-monitoring-and-anomaly-detection)
+  - [Time-series forecasting for building energy](#time-series-forecasting-for-building-energy)
+  - [Multi-agent systems for construction](#multi-agent-systems-for-construction)
+  - [Synthetic data generation](#synthetic-data-generation)
 - [Datasets and benchmarks](#datasets-and-benchmarks)
+  - [BIM and IFC](#bim-and-ifc)
+  - [City models and geospatial](#city-models-and-geospatial)
+  - [Point clouds and 3D scenes](#point-clouds-and-3d-scenes)
+  - [Construction, energy, and mobility](#construction-energy-and-mobility)
+  - [Sensors and smart cities](#sensors-and-smart-cities)
 - [Standards and specifications](#standards-and-specifications)
 - [Research groups and communities](#research-groups-and-communities)
 - [Conferences and workshops](#conferences-and-workshops)
@@ -268,7 +289,6 @@ To add something to the list, please submit a pull request or open an issue.
 
 - [BE-OLS](https://cyberbuildlab.github.io/BE-OLS/) - Built Environment Ontology Lookup Service.
 - [LOV](https://lov.linkeddata.es/dataset/lov/) - Linked Open Vocabularies.
-- [Linked Building Data Community Group](https://github.com/w3c-lbd-cg/lbd) - W3C Community Group site and resources for linked building data.
 
 ---
 
@@ -339,6 +359,8 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [IfcBench](https://github.com/sylvainHellin/ifc-bench) - Benchmark for evaluating AI comprehension and reasoning over IFC models using curated models and question-answer pairs.
 - [BimReq](https://github.com/dsd-sztaki-hu/BimReq) - Ontology-based representation of construction regulations and requirements that can support symbolic and neuro-symbolic BIM compliance systems.
 - [pygaeb](https://github.com/frameIQ/pygaeb) - Python parser for GAEB construction data with support for LLM-assisted classification of construction items.
+- [aware](https://github.com/aware-aeco/aware) - Open-source agentic substrate for AECO (Architecture, Engineering, Construction, Operations).
+- [CAD2BIM](https://github.com/alvin528/CAD2BIM) - LLM and VLM agent skill for converting floor plans into IFC, GLB, OBJ, and STL.
 
 ### LLM agents and natural-language interfaces
 
@@ -347,6 +369,11 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [OpenConstructionEstimate](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR) - Multilingual construction cost knowledge base designed for use with AI assistants and construction-estimation agents.
 - [Geospatial Code Agent](https://github.com/aws-samples/sample-geospatial-code-agent) - Natural-language agent that generates and executes geospatial analysis workflows over satellite and spatial data.
 - [SAP AAS MCP Server](https://github.com/SAP/aas-mcp-server) - MCP adapter exposing Asset Administration Shell APIs as Model Context Protocol tools for language models.
+- [rhino-mcp](https://github.com/tanishqbhattad/rhino-mcp) - MCP server for controlling Rhino with Claude, ChatGPT, or any MCP client, exposing 3D modeling tools.
+- [opentakeoff](https://github.com/Kentucky-ai/opentakeoff) - Open-source PDF takeoff engine for construction and flooring, built for AI agents to drive natively.
+- [PLAXIS-MCP](https://github.com/yixuanzhong/PLAXIS-MCP) - MCP server for PLAXIS 2D geotechnical engineering remote scripting.
+- [renoolab-agent-skills](https://github.com/mehdimicra/renoolab-agent-skills) - Agent skills for renovation and construction trades (BTP), connected via MCP.
+- [Claude Skills for Computational Designers](https://github.com/marcinfinitesimal533/Claude-skills-for-Computational-Designers) - Claude Code skills for computational design, parametric modeling, simulation, and BIM scripting.
 
 ### Computer vision for construction
 
@@ -361,6 +388,7 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [Segment Anything](https://github.com/facebookresearch/segment-anything) - Foundation segmentation model frequently adapted for buildings, defects, drawings, satellite imagery, and construction-site analysis.
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) - Open-set object detection model using text prompts, useful for construction and built-environment image analysis.
 - [Ultralytics](https://github.com/ultralytics/ultralytics) - Computer-vision framework providing YOLO models for object detection, segmentation, tracking, and pose estimation.
+- [Construction-Hazard-Detection](https://github.com/yihong1120/Construction-Hazard-Detection) - Enhances construction site safety using YOLO to detect hazards such as missing PPE.
 
 ### Generative design and spatial intelligence
 
@@ -372,6 +400,8 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [Structured3D](https://github.com/bertjiazheng/Structured3D) - Large synthetic dataset and tools for structured indoor scene understanding and layout reconstruction.
 - [AI4CAD](https://github.com/gudo7208/awesome-ai4cad) - Curated collection of research and implementations covering AI for CAD, BIM, geometric modelling, and engineering design.
 - [DeepCAD](https://github.com/ChrisWu1997/DeepCAD) - Generative deep-learning system for representing and generating CAD construction sequences.
+- [cad-cae-copilot](https://github.com/armpro24-blip/cad-cae-copilot) - AI-native CAD/CAE workbench for AI agents, covering text-to-CAD and text-to-CAE workflows.
+- [gcs](https://github.com/samsilverman/gcs) - Python library for generating 3D meshes of generalized cylindrical shells.
 
 ### Building control and reinforcement learning
 
@@ -400,6 +430,12 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas) - Resources associated with large-scale mapping of building footprints and heights.
 - [Awesome Urban Foundation Models](https://github.com/usail-hkust/Awesome-Urban-Foundation-Models) - Curated literature and resources covering foundation models for urban planning, mobility, energy, environment, and public services.
 - [Awesome Remote-Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models) - Collection of remote-sensing foundation models, benchmarks, datasets, and fine-tuning frameworks.
+- [city2graph](https://github.com/c2g-dev/city2graph) - Transforms geospatial relations into graphs for graph neural networks and spatial network analysis.
+- [rs-embed](https://github.com/cybergis/rs-embed) - One-line access to remote sensing foundation model embeddings for any place and time.
+- [Geospatial Foundation Models on AWS](https://github.com/aws-samples/sample-geospatial-foundation-models-on-aws) - Reference implementations for using geospatial foundation models on AWS for earth-scale monitoring.
+- [orthoseg](https://github.com/orthoseg/orthoseg) - Train neural networks to segment orthophotos.
+- [CesiumJS AI Starter App](https://github.com/CesiumGS/cesiumjs-ai-starter-app) - Starter template for building LLM-powered 3D globe applications with CesiumJS and tool calling.
+- [geoai-skills](https://github.com/muend/geoai-skills) - Agent skills for GeoAI and geospatial data science, covering remote sensing, spatial statistics, and PostGIS.
 
 ### AI benchmarks and datasets
 
@@ -410,6 +446,45 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [SpaceNet](https://github.com/SpaceNetChallenge) - Benchmark datasets and challenges for building extraction, road detection, and geospatial machine learning.
 - [Microsoft Global ML Building Footprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Global building-footprint dataset produced using machine-learning models over satellite imagery.
 - [PANGAEA](https://github.com/VMarsocci/pangaea-bench) - Benchmark for evaluating geospatial foundation models across diverse Earth-observation tasks.
+- [Japan Construction Cost Database](https://github.com/ogasurfproject-jpg/japan-construction-cost-database) - Open dataset of construction and renovation costs in Japan, based on 30 years of industry data.
+
+### Foundation models for the built environment
+
+_This section is a work in progress. Contributions welcome._
+
+### Neuro-symbolic AI
+
+_This section is a work in progress. Contributions welcome._
+
+### NLP for construction and built environment
+
+_This section is a work in progress. Contributions welcome._
+
+### AI bias and fairness in construction
+
+_This section is a work in progress. Contributions welcome._
+
+### RAG for AEC documents
+
+- [les_rag_public](https://github.com/proovcme/les_rag_public) - Local-first engineering RAG with CAD/BIM JSON exporters and a standalone viewer.
+
+### Structural health monitoring and anomaly detection
+
+- [sgsim](https://github.com/Sajad-Hussaini/sgsim) - Simulation and analysis of ground motions for structural and earthquake engineering.
+
+### Time-series forecasting for building energy
+
+- [ha-energy-forecast](https://github.com/m-zenker/ha-energy-forecast) - Home Assistant app forecasting household electricity consumption 48 hours ahead.
+- [gridsense](https://github.com/PrajitMittal16/gridsense) - 7-day building energy forecasting using a stacked LSTM and XGBoost model with SHAP explanations.
+- [hass.tibber_prices](https://github.com/jpawlowski/hass.tibber_prices) - Home Assistant integration providing detailed electricity price sensors for demand-response use cases.
+
+### Multi-agent systems for construction
+
+- [AssetOpsBench](https://github.com/IBM/AssetOpsBench) - Industry 4.0 benchmark and framework for building, orchestrating, and evaluating asset-operations agents.
+
+### Synthetic data generation
+
+_This section is a work in progress. Contributions welcome._
 
 ---
 
@@ -546,6 +621,8 @@ Known conferences and workshops related to digital construction, BIM, digital tw
 - [IEEE Smart Cities](https://smartcities.ieee.org/) - Conference series on smart city technologies.
 - [TUM GNI Symposium](https://events.gni.tum.de/ai-symposium-2026/) - Symposium on digital transformation in the built environment, organized by TUM.
 - [ICSA - International Conference on Structures and Architecture](https://www.linkedin.com/company/icsa-2027-milano/)
+- [EduBIM 2026](https://edubim2026.sciencesconf.org/) - Conference on BIM education and training in architecture, engineering, and construction.
+- [ECPPM - European Conference on Product and Process Modelling](https://www.ecppm.org/) - Biennial conference on product and process modelling in the building and construction industry.
 
 ### National and regional
 
@@ -570,6 +647,8 @@ Known conferences and workshops related to digital construction, BIM, digital tw
 - [EC3 Modelling & Standards Committee](https://ec-3.org/governance/technical-committees/modelling-standards-committee/) - A permanent technical committee of the EC3.
 - [buildingSMART International](https://www.buildingsmart.org/) - International organization developing open BIM standards.
 - [Digital Twin Consortium](https://www.digitaltwinconsortium.org/) - Global ecosystem for digital twin technologies.
+- [Linked Building Data Community Group](https://github.com/w3c-lbd-cg/lbd) - W3C Community Group site and resources for linked building data.
+
 
 ---
 

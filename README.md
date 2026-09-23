@@ -336,6 +336,7 @@ To add something to the list, please submit a pull request or open an issue.
 
 ## Robotics and AI for construction
 
+- [BidWright](https://github.com/braedonsaunders/bidwright) – Open-source AI-native construction estimating with 2D/3D/PDF/BIM takeoff, pricing, scheduling, and bid quotes.
 - [OpenConstructionERP](https://github.com/datadrivenconstruction/OpenConstructionERP) - Open-source construction ERP covering BOQ and PDF/CAD/BIM takeoff with AI cost matching, across 42 regional catalogues and 21 languages.
 - [DDC Skills for AI Agents in Construction](https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction) - Collection of AI skills for construction covering BIM analysis, cost estimation, scheduling, and document control.
 - [bimflowsuite](https://github.com/Nnamdi-Oniya/bimflowsuite) - Cloud-native platform for generating, analyzing, and managing IFC files.

@@ -375,6 +375,7 @@ Open-source tools, models, agents, benchmarks, and research implementations appl
 - [PLAXIS-MCP](https://github.com/yixuanzhong/PLAXIS-MCP) - MCP server for PLAXIS 2D geotechnical engineering remote scripting.
 - [renoolab-agent-skills](https://github.com/mehdimicra/renoolab-agent-skills) - Agent skills for renovation and construction trades (BTP), connected via MCP.
 - [Claude Skills for Computational Designers](https://github.com/marcinfinitesimal533/Claude-skills-for-Computational-Designers) - Claude Code skills for computational design, parametric modeling, simulation, and BIM scripting.
+- [bim-cli](https://bimcli.com) - Free, closed-source Windows CLI and local MCP server that lets AI agents drive Revit 2024-2027, check drawing-set PDFs, and pull US site and flood data.
 
 ### Computer vision for construction
 

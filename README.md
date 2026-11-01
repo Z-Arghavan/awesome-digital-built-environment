@@ -166,6 +166,7 @@ To add something to the list, please submit a pull request or open an issue.
 - [B45 Labs Coordination](https://github.com/B45Labs/B45Labs_Coordination) - Revit add-in for coordination, auditing, and QA/QC workflows.
 - [multiconn_archicad](https://github.com/SzamosiMate/multiconn_archicad) - Python toolkit for multi-instance Archicad automation via its JSON API and Tapir Add-On.
 - [CadAddinManager](https://github.com/chuongmep/CadAddinManager) - Updates .NET assemblies without restarting AutoCAD or Civil 3D during development.
+- [RayCAD](https://getraycad.com/?utm_source=awesome-digital-built-environment) - Commercial Revit add-in that automates MEPF tagging of shop drawings (HVAC and piping today), runs on device and supports Revit 2021 to 2027.
 
 ---
 
